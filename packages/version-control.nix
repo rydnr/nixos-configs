@@ -8,8 +8,8 @@
     cgit
     gitAndTools.diff-so-fancy
     gitAndTools.git-annex-remote-rclone
-    git-big-picture
-    gitAndTools.git-codeowners
+#    git-big-picture
+#    gitAndTools.git-codeowners
     git-cola
     git-crypt
     gitAndTools.git-dit
@@ -31,5 +31,6 @@
     gitAndTools.tig
 #    topgit
     gitAndTools.transcrypt
+    libgit2
   ];
 }

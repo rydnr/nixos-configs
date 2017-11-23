@@ -11,11 +11,13 @@
     evince
     ghostscript
     ghostscriptX
+    hugo
     jekyll
 #    texLiveFull
 #    (pkgs.texLiveAggregationFun { paths = [ pkgs.texLive pkgs.texLiveExtra pkgs.texLiveBeamer ]; })
     pandoc
 ##    python3Packages.pygments
+    xournal
     xpdf
   ];
 }

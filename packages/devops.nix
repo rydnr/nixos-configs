@@ -39,6 +39,7 @@
     rsnapshot
     screen
     socat
+    ssh-ident
     terminator
     thc-hydra
     tmux

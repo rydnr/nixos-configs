@@ -27,10 +27,11 @@
       ./private/services.openvpn.nix
       ./private/packages.nix
       ./private/devops.nix
-      ./packages/browsers.nix
       ./packages/android.nix
+      ./packages/browsers.nix
       ./packages/desktopapps.nix
       ./packages/devops.nix
+      ./packages/games.nix
       ./packages/programming.nix
       ./packages/publishing.nix
       ./packages/misc.nix

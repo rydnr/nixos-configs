@@ -38,11 +38,11 @@ fi
         "vboxnetadp"
         "vboxnetflt"
         "dm_crypt"
-        "sha256_generic"
-        "sha1_generic"
+        "sha256"
+        "sha1"
         "cbc"
         "aes_x86_64"
-        "aes_generic"
+        "aes"
         "xts"
       ];
 
