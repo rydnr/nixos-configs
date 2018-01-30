@@ -6,7 +6,7 @@
     aspell
     aspellDicts.en
     aspellDicts.es
-    calibre
+#    calibre
     cups
     evince
     ghostscript

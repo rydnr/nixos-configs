@@ -28,5 +28,7 @@
 #                      openjdk
 #                    ];
 #    })
+     gmtp
+     mtpfs
   ];
 }

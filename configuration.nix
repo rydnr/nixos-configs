@@ -7,36 +7,40 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware.nix
-      ./fonts.nix
-      ./security.nix
-      ./services.nix
-      ./services.xserver.nix
-      ./services.emacs.nix
-      ./private/services.custom.nix
-      ./bluetooth.nix
       ./audio.nix
+      ./bluetooth.nix
+      ./fonts.nix
       ./nixpkgs.nix
-      ./private/audio.nix
-      ./private/boot.nix
-      ./private/users.nix
-      ./private/filesystems.nix
-      ./private/networking.nix
-      ./private/i18n.nix
-      ./private/time.nix
-      ./private/services.openvpn.nix
-      ./private/packages.nix
-      ./private/devops.nix
       ./packages/android.nix
+      ./packages/audio.nix
       ./packages/browsers.nix
       ./packages/desktopapps.nix
       ./packages/devops.nix
       ./packages/games.nix
+      ./packages/misc.nix
       ./packages/programming.nix
       ./packages/publishing.nix
-      ./packages/misc.nix
-      ./packages/x11.nix
       ./packages/version-control.nix
+      ./packages/x11.nix
+      ./private/audio.nix
+      ./private/boot.nix
+      ./private/devops.nix
+      ./private/filesystems.nix
+      ./private/hardware.nix
+      ./private/i18n.nix
+      ./private/networking.nix
+      ./private/packages.nix
+      ./private/services.apache.nix
+      ./private/services.custom.nix
+      ./private/services.openvpn.nix
+      ./private/services.postfix.nix
+      ./private/services.udev.nix
+      ./private/time.nix
+      ./private/users.nix
+      ./security.nix
+      ./services.nix
+      ./services.emacs.nix
+      ./services.xserver.nix
     ];
 
   # The NixOS release to be compatible with for stateful data such as databases.

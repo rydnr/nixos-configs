@@ -35,6 +35,7 @@
     openvpn
     packer
     pciutils
+    postfix
     redis
     rsnapshot
     screen
@@ -49,6 +50,7 @@
     unzip
     usbutils
     vagrant
+    virtualbox
     watchman
     wget
     which
@@ -60,5 +62,23 @@
     forwardX11 = true;
     startAgent = true;
     setXAuthLocation = true;
+  };
+
+  programs.bash = {
+    enableCompletion = true;
+  };
+
+#  programs.gnupg = {
+#    agent = {
+#      enable = true;
+#      enableSSHSupport = true;
+#   };
+#  };
+
+  virtualisation = {
+    virtualbox = {
+      host.enable = true;
+    };
+    libvirtd.enable = true;
   };
 }

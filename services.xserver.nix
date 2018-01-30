@@ -5,18 +5,27 @@
   services.xserver = {
     enable = true;
 #    videoDrivers = [ "ati_unfree" ];
-    videoDrivers = [ "ati" ];
+#    videoDrivers = [ "ati" ];
+#    videoDrivers = [ "noveau" ];
+    videoDrivers = [ "nvidia" ];
     layout = "us";
     xkbVariant = "dvp";
     xkbOptions = "eurosign:e,ctrl:swapcaps,terminate:ctrl_alt_bksp";
 
-    windowManager.xmonad.enable = true;
-    windowManager.xmonad.enableContribAndExtras = true;
+    windowManager.xmonad = {
+      enable = true;
+      enableContribAndExtras = true;
+#      extraPackages = [
+#        pkgs.haskellPackages.xmonad-contrib
+#        pkgs.haskellPackages.monad-logger
+#      ];
+    };
     windowManager.default = "xmonad";
 
-    desktopManager.xterm.enable = true;
-#    desktopManager.xfce.enable = true;
-    desktopManager.default = "xterm";
+    desktopManager.xterm.enable = false;
+    desktopManager.xfce.enable = false;
+    desktopManager.default = "none";
+    wacom.enable = true;
 
 #    displayManager.lightdm.enable = true;
     displayManager.slim = {

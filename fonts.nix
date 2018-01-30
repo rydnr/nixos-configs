@@ -4,73 +4,20 @@
         enableFontDir = true;
         enableGhostscriptFonts = true;
         fonts = with pkgs; [
-            #font-awesome-ttf
-            freefont_ttf
-            inconsolata
-            powerline-fonts
-            source-code-pro
-            source-sans-pro
-            source-serif-pro
-            tewi-font
-            ubuntu_font_family
-            unifont
-            xorg.fontscreencyrillic
-            xorg.fontbitstream100dpi
-            xorg.fontdaewoomisc
-            xorg.fontmiscethiopic
-            xorg.fontmiscmisc
-
             cantarell_fonts
             corefonts
             dejavu_fonts
             dina-font
             dina-font-pcf
             dosemu_fonts
-            soundfont-fluid
-            xorg.fontadobe100dpi
-            xorg.fontadobe75dpi
-            xorg.fontadobeutopia100dpi
-            xorg.fontadobeutopia75dpi
-            xorg.fontadobeutopiatype1
-            xorg.fontalias
-            xorg.fontarabicmisc
+            emacs-all-the-icons-fonts
             font-awesome-ttf
-            xorg.fontbh100dpi
-            xorg.fontbh75dpi
-            xorg.fontbhlucidatypewriter100dpi
-            xorg.fontbhlucidatypewriter75dpi
-            xorg.fontbhttf
-            xorg.fontbhtype1
-            xorg.fontbitstream100dpi
-            xorg.fontbitstream75dpi
-            xorg.fontbitstreamtype1
-            xorg.fontcronyxcyrillic
-            xorg.fontcursormisc
-            xorg.fontdaewoomisc
-            xorg.fontdecmisc
-            font-droid
-            xorg.fontibmtype1
-            xorg.fontisasmisc
-            xorg.fontjismisc
-            xorg.fontmicromisc
-            xorg.fontmisccyrillic
-            xorg.fontmiscethiopic
-            xorg.fontmiscmeltho
-            xorg.fontmiscmisc
-            xorg.fontmuttmisc
-            xorg.fontschumachermisc
-            xorg.fontscreencyrillic
-            xorg.fontsonymisc
-            xorg.fontsunmisc
-            xorg.fontutil
-            xorg.fontwinitzkicyrillic
-            xorg.fontxfree86type1
-            fontconfig_210
             fontconfig
+            fontconfig_210
+            font-droid
             fontforge
             fontforge-gtk
             fontmatrix
-            xorg.fontsproto
             freefont_ttf
             gnome3.gnome-font-viewer
             gohufont
@@ -78,13 +25,11 @@
             gtk2fontsel
             gyre-fonts
             hack-font
+            inconsolata
             ipaexfont
             ipafont
             kawkab-mono-font
             liberation_ttf
-            xorg.libfontenc
-            xorg.libXfont
-            xorg.libXfont2
             lohit-fonts.assamese
             lohit-fonts.bengali
             lohit-fonts.devanagari
@@ -102,30 +47,74 @@
             lohit-fonts.tamil
             lohit-fonts.tamil-classical
             lohit-fonts.telugu
-            xorg.mkfontdir
-            xorg.mkfontscale
             mplus-outline-fonts
+            nerdfonts
             ocamlPackages.fontconfig
             perlPackages.FontAFM
             perlPackages.FontTTF
             powerline-fonts
             proggyfonts
-#           python27Packages.fonttools
-#           python35Packages.fonttools
+            soundfont-fluid
+            source-code-pro
+            source-sans-pro
+            source-serif-pro
             terminus_font
             tewi-font
 # 404
 #           textfonts
             ttmkfdir
             ubuntu_font_family
+            ucsFonts
             unifont
             unifont_upper
             urxvt_font_size
             vistafonts
-            ucsFonts
-            xorg.xf86bigfontproto
             xfontsel
             xlsfonts
-         ];
+            xorg.fontadobe100dpi
+            xorg.fontadobe75dpi
+            xorg.fontadobeutopia100dpi
+            xorg.fontadobeutopia75dpi
+            xorg.fontadobeutopiatype1
+            xorg.fontalias
+            xorg.fontarabicmisc
+            xorg.fontbh100dpi
+            xorg.fontbh75dpi
+            xorg.fontbhlucidatypewriter100dpi
+            xorg.fontbhlucidatypewriter75dpi
+            xorg.fontbhttf
+            xorg.fontbhtype1
+            xorg.fontbitstream100dpi
+            xorg.fontbitstream100dpi
+            xorg.fontbitstream75dpi
+            xorg.fontbitstreamtype1
+            xorg.fontcronyxcyrillic
+            xorg.fontcursormisc
+            xorg.fontdaewoomisc
+            xorg.fontdecmisc
+            xorg.fontibmtype1
+            xorg.fontisasmisc
+            xorg.fontjismisc
+            xorg.fontmicromisc
+            xorg.fontmisccyrillic
+            xorg.fontmiscethiopic
+            xorg.fontmiscmeltho
+            xorg.fontmiscmisc
+            xorg.fontmuttmisc
+            xorg.fontschumachermisc
+            xorg.fontscreencyrillic
+            xorg.fontsonymisc
+            xorg.fontsproto
+            xorg.fontsunmisc
+            xorg.fontutil
+            xorg.fontwinitzkicyrillic
+            xorg.fontxfree86type1
+            xorg.libfontenc
+            xorg.libXfont
+            xorg.libXfont2
+            xorg.mkfontdir
+            xorg.mkfontscale
+            xorg.xf86bigfontproto
+        ];
     };
 }     

@@ -10,6 +10,7 @@
     dmenu
     dropbox
     enhanced-ctorrent
+    fontconfig
     ghostscript
     ghostscriptX
     gimp
@@ -21,7 +22,7 @@
     rxvt_unicode-with-plugins
     screen
     scrot
-#    skype
+    skypeforlinux
     stalonetray
     teamspeak_client
     tigervnc

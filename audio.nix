@@ -8,15 +8,11 @@
     pulseaudio = {
       enable = true;
       support32Bit = true;
-      configFile = "/home/chous/etc/pulse/pulseaudio.pa";
+      configFile = "/etc/pulse/pulseaudio.pa";
       package = pkgs.pulseaudioFull;
+
 #    package = pulseaudio.override { jackaudioSupport = true; };
       daemon.logLevel = "debug";
      };
   };
- 
-  environment.systemPackages = with pkgs; [
-    pavucontrol
-    pulseaudioFull
-  ];
 }
