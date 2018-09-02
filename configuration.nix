@@ -6,7 +6,7 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
+    [
       ./audio.nix
       ./bluetooth.nix
       ./fonts.nix
@@ -16,12 +16,13 @@
       ./packages/browsers.nix
       ./packages/desktopapps.nix
       ./packages/devops.nix
-      ./packages/games.nix
       ./packages/misc.nix
       ./packages/programming.nix
       ./packages/publishing.nix
       ./packages/version-control.nix
+      ./packages/screensavers.nix
       ./packages/x11.nix
+      ./packages/xmonad.nix
       ./private/audio.nix
       ./private/boot.nix
       ./private/devops.nix
@@ -29,26 +30,38 @@
       ./private/hardware.nix
       ./private/i18n.nix
       ./private/networking.nix
+      ./private/nix.nix
       ./private/packages.nix
-      ./private/services.apache.nix
-      ./private/services.custom.nix
-      ./private/services.openvpn.nix
-      ./private/services.postfix.nix
-      ./private/services.udev.nix
+      ./private/packages/games.nix
+      ./private/services/apache.nix
+      ./private/services/docker.nix
+      ./private/services/openvpn.nix
+      ./private/services/postfix.nix
+      ./private/services/udev.nix
       ./private/time.nix
       ./private/users.nix
       ./security.nix
-      ./services.nix
-      ./services.emacs.nix
-      ./services.xserver.nix
+      ./services/acpid.nix
+      ./services/atd.nix
+      ./services/autocutsel.nix
+      ./services/cron.nix
+      ./services/cups.nix
+      ./services/dunst.nix
+      ./services/emacs.nix
+      ./services/locate.nix
+      ./services/mongodb.nix
+      ./services/nix-gc.nix
+      ./services/redshift.nix
+      ./services/remove-rt-locks.nix
+      ./services/ssh.nix
+      ./services/syncthing.nix
+      ./services/unclutter.nix
+      ./services/upower.nix
+      ./services/urxvtd.nix
+      ./services/udiskie.nix
+      ./services/vsftpd.nix
+      ./services/xcape.nix
+      ./services/xserver.nix
+      ./system.nix
     ];
-
-  # The NixOS release to be compatible with for stateful data such as databases.
-  system.stateVersion = "16.09";
-
-  system.autoUpgrade.enable = true;
-
-  nixpkgs.config.allowUnfree = true;
-  
-  system.autoUpgrade.channel = https://nixos.org/channels/nixos-16.09;
 }

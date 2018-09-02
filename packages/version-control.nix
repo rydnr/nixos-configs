@@ -14,13 +14,13 @@
     git-crypt
     gitAndTools.git-dit
     gitAndTools.git-extras
-    gitAndTools.git-fame
+#    gitAndTools.git-fame
     git-hub
     gitAndTools.git-imerge
-    gitAndTools.git-octopus
-    gitAndTools.git-open
+#    gitAndTools.git-octopus
+#    gitAndTools.git-open
     gitAndTools.git-radar
-    gitAndTools.git-recent
+#    gitAndTools.git-recent
 #    git-remote-gcrypt
     gitAndTools.git-stree
     gitAndTools.git2cl

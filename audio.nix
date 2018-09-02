@@ -8,7 +8,7 @@
     pulseaudio = {
       enable = true;
       support32Bit = true;
-      configFile = "/etc/pulse/pulseaudio.pa";
+#      configFile = "/etc/pulse/pulseaudio.pa";
       package = pkgs.pulseaudioFull;
 
 #    package = pulseaudio.override { jackaudioSupport = true; };

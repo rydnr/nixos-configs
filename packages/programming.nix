@@ -3,14 +3,17 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
+    arcanist
     bundix
+    chromedriver
     compass
     eclipses.eclipse-sdk
-    ecj
+# try me again!    ecj
     elixir
 #    elmPackages.elm-compiler
     emacs
     gcc
+    gfortran
     gnumake
     gnuplot
 #    go
@@ -21,13 +24,13 @@
     jq
     maven
     nitrogen
-    nodejs
+    nodejs-8_x
     nodePackages.node2nix
-    octave
+#    octave
     openssl
     oraclejdk8
 #    pharo-launcher
-#    pharo-vm5
+    pharo
     php
     powerline-fonts
     python
@@ -43,7 +46,9 @@
     thrift
     tmuxinator
     vim
+    watchman
     weka
+    yarn
     zsh
   ];
 
@@ -55,6 +60,9 @@
 #  nixpkgs = with pkgs; [
 #      gitAndTools.gitFull
 #  ];
-  programs.zsh.enable = true;
+  programs.zsh = {
+    enable = true;
+    promptInit = "source ${pkgs.zsh-powerlevel9k}/share/zsh-powerlevel9k/powerlevel9k.zsh-theme";
+  };
 }
 

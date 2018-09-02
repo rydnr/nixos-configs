@@ -13,13 +13,13 @@
     allowUnfree = true;
 
     firefox = {
-      enableAdobeFlash = true;
+#      enableAdobeFlash = true;
       enableGoogleTalkPlugin = true;
     };
 
     chromium = {
-      enableAdobeFlash = true;
-      enablePepperFlash = true;
+#      enableAdobeFlash = true;
+#      enablePepperFlash = true;
       enablePepperPDF = true;
     };
   };

@@ -22,6 +22,7 @@
     gettext
     glibc
 #    go-mtpfs
+    gnome3.cheese
     hicolor_icon_theme
     i3
     i3lock
@@ -48,8 +49,12 @@
     rxvt
     sabnzbd
     sharutils
+    stalonetray
+    synergy
     unrar
     vlc
+    vsftpd
+    wpa_supplicant
     xcalib
     xclip
     zlib

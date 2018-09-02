@@ -10,7 +10,7 @@
             dina-font
             dina-font-pcf
             dosemu_fonts
-            emacs-all-the-icons-fonts
+#            emacs-all-the-icons-fonts
             font-awesome-ttf
             fontconfig
             fontconfig_210
@@ -48,7 +48,7 @@
             lohit-fonts.tamil-classical
             lohit-fonts.telugu
             mplus-outline-fonts
-            nerdfonts
+# 404            nerdfonts
             ocamlPackages.fontconfig
             perlPackages.FontAFM
             perlPackages.FontTTF

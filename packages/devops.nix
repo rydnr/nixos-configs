@@ -5,15 +5,23 @@
   environment.systemPackages = with pkgs; [
     awscli
     aws_shell
+    aircrack-ng
+    arping
+    arpoison
     bash
     bashmount
     bc
     bind
+    binutils-unwrapped
+    burpsuite
     cron
+    dnsperf
     docker
     docker_compose
+    docker-machine
     ec2_api_tools
     ec2_ami_tools
+#    eternal-terminal
     ettercap
     fish
     gatling
@@ -22,10 +30,11 @@
     inetutils
     inotify-tools
     keychain
+    kubernetes
     linuxPackages.virtualbox
-    linuxPackages.virtualboxGuestAdditions
     lsof
     mcron
+    minikube
     mongodb
     net_snmp
     nmap
@@ -35,13 +44,15 @@
     openvpn
     packer
     pciutils
-    postfix
+#    postfix
+    postgresql
     redis
     rsnapshot
     screen
     socat
     ssh-ident
     terminator
+    terraform
     thc-hydra
     tmux
     tmuxinator
@@ -54,6 +65,7 @@
     watchman
     wget
     which
+    wireshark
     zip
     zsh
   ];
@@ -72,13 +84,15 @@
 #    agent = {
 #      enable = true;
 #      enableSSHSupport = true;
-#   };
+#   };/
 #  };
 
   virtualisation = {
     virtualbox = {
       host.enable = true;
     };
-    libvirtd.enable = true;
+#    libvirtd.enable = true;
   };
+
+  nixpkgs.config.virtualbox.enableExtensionPack = true;  
 }

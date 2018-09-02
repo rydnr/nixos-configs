@@ -4,31 +4,14 @@
   # $ nix-env -qaP | grep wget
   environment = {
     systemPackages = with pkgs; [
-      dmenu
       fontconfig
       glxinfo
       guvcview
-      haskellPackages.cabal-install
-#     haskellPackages.ghcWithPackages
-     haskellPackages.xmobar
-     haskellPackages.xmonad
-     haskellPackages.xmonad-contrib
-#     haskellPackages.xmonad-contrib-gpl
-     haskellPackages.xmonad-entryhelper
-     haskellPackages.xmonad-extras
-     haskellPackages.xmonad-screenshot
-     haskellPackages.xmonad-utils
-#     haskellPackages.xmonad-wallpaper
-#     haskellPackages.xmonad-windownames
      hicolor_icon_theme   # icons for thunar
-     i3
-     i3lock
-     i3minator
-     i3status
      inotify-tools
+     lxappearance
      screen
      shared_mime_info
-     stalonetray
      uvccapture
      tilda
      tmux
@@ -52,8 +35,6 @@
      xorg.xkill
      xorg.xmessage
      xorg.xmodmap
-     xscreensaver
-     zathura              # pdf viewer
     ];
   
     # /var/run/current-system/sw/etc/profile
@@ -68,8 +49,9 @@
       export GTK_DATA_PREFIX=${config.system.path}
       # Set GIO_EXTRA_MODULES so that gvfs works.
       export GIO_EXTRA_MODULES=${pkgs.xfce.gvfs}/lib/gio/modules
+      export XCURSOR_PATH="${config.system.path}/share/icons:$HOME/.icons:$HOME/.nix-profile/share/icons/"
       # Launch xfce settings daemon.
-#      xfsettingsd &
+      xfsettingsd &
       # ===================================
     '';
 
