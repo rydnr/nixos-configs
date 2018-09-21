@@ -42,6 +42,6 @@
     xpdf
 #    xzgv
 #    zoom-us
-    zathura
+#    zathura
   ];
 }

@@ -51,7 +51,7 @@
       export GIO_EXTRA_MODULES=${pkgs.xfce.gvfs}/lib/gio/modules
       export XCURSOR_PATH="${config.system.path}/share/icons:$HOME/.icons:$HOME/.nix-profile/share/icons/"
       # Launch xfce settings daemon.
-      xfsettingsd &
+#      xfsettingsd &
       # ===================================
     '';
 

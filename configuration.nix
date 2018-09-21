@@ -7,7 +7,6 @@
 {
   imports =
     [
-      ./audio.nix
       ./bluetooth.nix
       ./fonts.nix
       ./nixpkgs.nix
@@ -34,17 +33,20 @@
       ./private/packages.nix
       ./private/packages/games.nix
       ./private/services/apache.nix
+      ./private/services/cron.nix
       ./private/services/docker.nix
       ./private/services/openvpn.nix
       ./private/services/postfix.nix
+      ./private/services/remove-rt-locks.nix
+      ./private/services/syncthing.nix
       ./private/services/udev.nix
+      ./private/services/xserver.nix
       ./private/time.nix
       ./private/users.nix
       ./security.nix
       ./services/acpid.nix
       ./services/atd.nix
       ./services/autocutsel.nix
-      ./services/cron.nix
       ./services/cups.nix
       ./services/dunst.nix
       ./services/emacs.nix
@@ -52,16 +54,13 @@
       ./services/mongodb.nix
       ./services/nix-gc.nix
       ./services/redshift.nix
-      ./services/remove-rt-locks.nix
       ./services/ssh.nix
-      ./services/syncthing.nix
       ./services/unclutter.nix
       ./services/upower.nix
       ./services/urxvtd.nix
       ./services/udiskie.nix
       ./services/vsftpd.nix
       ./services/xcape.nix
-      ./services/xserver.nix
       ./system.nix
     ];
 }

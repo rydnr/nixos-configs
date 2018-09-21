@@ -15,7 +15,7 @@
      haskellPackages.xmonad-extras
      haskellPackages.xmonad-screenshot
      haskellPackages.xmonad-utils
-     haskellPackages.xmonad-wallpaper
+#     haskellPackages.xmonad-wallpaper
 #     haskellPackages.xmonad-windownames
      stack
     ];
