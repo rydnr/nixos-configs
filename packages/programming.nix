@@ -51,6 +51,7 @@
     pythonPackages.svg2tikz
     ruby
     stack
+    sublime
     subversion
     thrift
     tmuxinator
