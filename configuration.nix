@@ -10,8 +10,9 @@
       ./bluetooth.nix
       ./fonts.nix
       ./nixpkgs.nix
-      ./packages/android.nix
+#      ./packages/android.nix
       ./packages/audio.nix
+      ./packages/bash.nix
       ./packages/browsers.nix
       ./packages/desktopapps.nix
       ./packages/devops.nix
@@ -20,6 +21,7 @@
       ./packages/publishing.nix
       ./packages/version-control.nix
       ./packages/screensavers.nix
+      ./packages/ssh.nix
       ./packages/x11.nix
       ./packages/xmonad.nix
       ./private/audio.nix
@@ -59,6 +61,7 @@
       ./services/upower.nix
       ./services/urxvtd.nix
       ./services/udiskie.nix
+      ./services/virtualbox.nix
       ./services/vsftpd.nix
       ./services/xcape.nix
       ./system.nix
