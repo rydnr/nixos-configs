@@ -5,8 +5,11 @@
 
 {
   environment.systemPackages = with pkgs; [
+    abcde
+    asunder
     pavucontrol
     pulseaudioFull
-    sound-juicer
+    perlPackages.MusicBrainzDiscID
+    perlPackages.MusicBrainz
   ];
 }
