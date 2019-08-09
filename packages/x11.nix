@@ -4,10 +4,11 @@
   # $ nix-env -qaP | grep wget
   environment = {
     systemPackages = with pkgs; [
-      fontconfig
-      glxinfo
-      guvcview
+     fontconfig
+     glxinfo
+     guvcview
      hicolor_icon_theme   # icons for thunar
+     i3
      inotify-tools
      lxappearance
      screen
@@ -16,6 +17,7 @@
      tilda
      tmux
      tmuxinator
+     xcompmgr
      xclip
      # xfce
 #     xfce.exo
@@ -86,7 +88,6 @@
        ttf_bitstream_vera
        ucsFonts
        unifont
-       vistafonts
        wqy_zenhei
     ];
   };

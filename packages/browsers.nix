@@ -17,10 +17,10 @@
       enableGoogleTalkPlugin = true;
     };
 
-    chromium = {
+#    chromium = {
 #      enableAdobeFlash = true;
 #      enablePepperFlash = true;
-      enablePepperPDF = true;
-    };
+#      enablePepperPDF = true;
+#    };
   };
 }
