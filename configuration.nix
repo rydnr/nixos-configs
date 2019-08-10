@@ -8,6 +8,7 @@
   imports =
     [
       ./bluetooth.nix
+      ./filesystems-remote.nix
       ./fonts.nix
       ./nixpkgs.nix
 #      ./packages/android.nix
