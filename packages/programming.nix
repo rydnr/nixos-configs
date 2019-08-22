@@ -4,6 +4,7 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
     arcanist
+    atlassian-cli
     bundix
     chromedriver
     compass
@@ -34,14 +35,13 @@
 #    octave
     openssl
 #    oraclejdk8
-    openjdk
+    openjdk12
 #    pharo
     pharo-cog32
     pharo-spur32
     pharo-spur64
     pharo-launcher
     php
-    powerline-fonts
     python
     python36
     pythonPackages.virtualenv
@@ -53,6 +53,9 @@
     stack
     sublime
     subversion
+    tlaplus
+    tlaps
+    tlaplusToolbox
     thrift
     tmuxinator
     vim

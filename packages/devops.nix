@@ -44,8 +44,10 @@
     minikube
     mongodb
     net_snmp
+    nix-index
     nmap
     nox
+    openconnect
     opendkim
     openssl
     openvpn

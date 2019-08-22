@@ -50,6 +50,7 @@
       ./services/acpid.nix
       ./services/atd.nix
       ./services/autocutsel.nix
+      ./services/clamav.nix
       ./services/cups.nix
       ./services/dunst.nix
       ./services/emacs.nix
