@@ -7,11 +7,11 @@
     path = with pkgs; [
       gnome3.defaultIconTheme
       gnome3.gnome_themes_standard
-      pythonPackages.udiskie
+      udiskie
     ];
     environment.XDG_DATA_DIRS="${pkgs.gnome3.defaultIconTheme}/share:${pkgs.gnome3.gnome_themes_standard}/share";
     serviceConfig.Restart = "always";
     serviceConfig.RestartSec = 2;
-    serviceConfig.ExecStart = "${pkgs.python27Packages.udiskie}/bin/udiskie -a -t -n -F ";
+    serviceConfig.ExecStart = "${pkgs.udiskie}/bin/udiskie -a -t -n -F ";
   };
 }

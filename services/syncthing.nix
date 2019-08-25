@@ -3,7 +3,7 @@
 {
   services.syncthing = {
     enable = true;
-    user = "joedicastro";
-    dataDir = "/home/joedicastro/.config/syncthing";
+    user = "chous";
+    dataDir = "/home/chous/.config/syncthing";
   };
 }
