@@ -3,15 +3,18 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
+    afuse
     alsaPlugins
     alsaPluginWrapper
     anki
+    autofs5
     bc
     bluez
     bluez-tools
     cifs_utils
     conky
     cowsay
+    davfs2
     dmidecode
     dpkg
 #    extraterm
@@ -21,8 +24,9 @@
     fuse_exfat
     gettext
     glibc
-#    go-mtpfs
     gnome3.cheese
+#    go-mtpfs
+    googler
     hicolor_icon_theme
     i3
     i3lock
@@ -34,6 +38,7 @@
     libselinux
     libsemanage
     libsepol
+    lsdvd
     mkvtoolnix
     newt
     nzbget
@@ -51,12 +56,14 @@
     sharutils
     stalonetray
     synergy
+    transcode
     unrar
     vlc
     vsftpd
     wpa_supplicant
     xcalib
     xclip
+    xsel
     zlib
   ];
 }

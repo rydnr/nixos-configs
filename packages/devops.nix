@@ -3,17 +3,18 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
+    alacritty
+    atop
     awscli
     aws_shell
     aircrack-ng
     arping
     arpoison
-    bash
-    bashmount
     bc
     bind
     binutils-unwrapped
     burpsuite
+    colordiff
     cron
     dnsperf
     docker
@@ -25,20 +26,28 @@
     ettercap
     fish
     gatling
+    google-cloud-sdk
+    google-cloud-sdk-gce
+    google-compute-engine
     gnupg
+    hdparm
     hwdata
     inetutils
     inotify-tools
+    iotop
     keychain
     kubernetes
     linuxPackages.virtualbox
     lsof
+    ltrace
     mcron
     minikube
     mongodb
     net_snmp
+    nix-index
     nmap
     nox
+    openconnect
     opendkim
     openssl
     openvpn
@@ -47,16 +56,18 @@
 #    postfix
     postgresql
     redis
+    robo3t
     rsnapshot
     screen
     socat
-    ssh-ident
+    sysstat
     terminator
     terraform
     thc-hydra
     tmux
     tmuxinator
     tree
+#    unarj
     unetbootin
     unzip
     usbutils
@@ -70,29 +81,10 @@
     zsh
   ];
 
-  programs.ssh = {
-    forwardX11 = true;
-    startAgent = true;
-    setXAuthLocation = true;
-  };
-
-  programs.bash = {
-    enableCompletion = true;
-  };
-
 #  programs.gnupg = {
 #    agent = {
 #      enable = true;
 #      enableSSHSupport = true;
 #   };/
 #  };
-
-  virtualisation = {
-    virtualbox = {
-      host.enable = true;
-    };
-#    libvirtd.enable = true;
-  };
-
-  nixpkgs.config.virtualbox.enableExtensionPack = true;  
 }

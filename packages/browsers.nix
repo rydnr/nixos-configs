@@ -6,8 +6,9 @@
     chromium
     firefoxWrapper
     firefox-devedition-bin
+    firefox-esr-52
     tor
-   ];
+  ];
 
   nixpkgs.config = {
     allowUnfree = true;
@@ -15,12 +16,21 @@
     firefox = {
 #      enableAdobeFlash = true;
       enableGoogleTalkPlugin = true;
+      jre = true;
     };
 
-    chromium = {
+    oraclejdk.accept_license = true;
+#    allowUnfree = true;
+
+#    chromium = {
 #      enableAdobeFlash = true;
 #      enablePepperFlash = true;
-      enablePepperPDF = true;
-    };
+#      enablePepperPDF = true;
+#    };
+
+    permittedInsecurePackages = [
+      "firefox-52.9.0esr"
+      "firefox-esr-unwrapped-52.9.0esr"
+    ];
   };
 }

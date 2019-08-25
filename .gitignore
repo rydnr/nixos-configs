@@ -1,0 +1,7 @@
+private/audio.nix
+private/boot.nix
+private/filesystems.nix
+private/hardware.nix
+private/networking.nix
+private/power.nix
+private/services/xserver.nix

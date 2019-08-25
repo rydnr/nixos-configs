@@ -14,7 +14,6 @@
             font-awesome-ttf
             fontconfig
             fontconfig_210
-            font-droid
             fontforge
             fontforge-gtk
             fontmatrix
@@ -68,7 +67,7 @@
             unifont
             unifont_upper
             urxvt_font_size
-            vistafonts
+# broken    vistafonts
             xfontsel
             xlsfonts
             xorg.fontadobe100dpi
@@ -104,7 +103,6 @@
             xorg.fontschumachermisc
             xorg.fontscreencyrillic
             xorg.fontsonymisc
-            xorg.fontsproto
             xorg.fontsunmisc
             xorg.fontutil
             xorg.fontwinitzkicyrillic
@@ -114,7 +112,6 @@
             xorg.libXfont2
             xorg.mkfontdir
             xorg.mkfontscale
-            xorg.xf86bigfontproto
         ];
     };
 }     

@@ -5,10 +5,10 @@
   environment.systemPackages = with pkgs; [
     audacity
     autocutsel
+    discord
     blender
     dmenu
     dropbox
-    electricsheep
     enhanced-ctorrent
     feh
     fontconfig
@@ -21,27 +21,32 @@
     libreoffice
     lightdm
     mplayer
+    pencil
     pidgin-with-plugins
     redshift
     rxvt_unicode-with-plugins
     screen
     scrot
 #    skypeforlinux
+    slack
+    slack-cli
+#    synfigstudio
     stalonetray
-    teamspeak_client
+#    teamspeak_client
     tigervnc
     tmux
     tmuxinator
 #    torbrowser
 #    torchat
-    wine
+#    wine
     xclip
     xdotool
+    xfontsel
     xlibs.xmessage
     xmacro
     xpdf
 #    xzgv
 #    zoom-us
-    zathura
+#    zathura
   ];
 }
