@@ -37,6 +37,7 @@
       ./private/nix.nix
       ./private/packages.nix
       ./private/packages/games.nix
+      ./private/services/alsa.nix
       ./private/services/apache.nix
       ./private/services/cron.nix
       ./private/services/docker.nix
@@ -46,6 +47,7 @@
       ./private/services/syncthing.nix
       ./private/services/udev.nix
       ./private/services/xserver.nix
+      ./private/sysctl.nix
       ./private/time.nix
       ./private/users.nix
       ./security.nix
