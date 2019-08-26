@@ -31,6 +31,7 @@
       ./private/filesystems.nix
       ./private/hardware.nix
       ./private/i18n.nix
+      ./private/location.nix
       ./private/power.nix
       ./private/networking.nix
       ./private/nix.nix
