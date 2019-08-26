@@ -37,7 +37,7 @@
       ./private/nix.nix
       ./private/packages.nix
       ./private/packages/games.nix
-      ./private/services/alsa.nix
+#      ./private/services/alsa.nix
       ./private/services/apache.nix
       ./private/services/cron.nix
       ./private/services/docker.nix
