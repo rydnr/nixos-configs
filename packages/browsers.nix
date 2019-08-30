@@ -20,7 +20,6 @@
     };
 
     oraclejdk.accept_license = true;
-#    allowUnfree = true;
 
 #    chromium = {
 #      enableAdobeFlash = true;

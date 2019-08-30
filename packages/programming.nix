@@ -34,8 +34,9 @@
     notmuch-bower
 #    octave
     openssl
-#    oraclejdk8
+    oraclejdk
     openjdk12
+    openjdk
 #    pharo
     pharo-cog32
     pharo-spur32
