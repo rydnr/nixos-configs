@@ -39,6 +39,7 @@
     libsemanage
     libsepol
     lsdvd
+    megasync
     mkvtoolnix
     newt
     nzbget
