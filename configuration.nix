@@ -8,7 +8,6 @@
   imports =
     [
       ./bluetooth.nix
-      ./filesystems-remote.nix
       ./fonts.nix
       ./nixpkgs.nix
 #      ./packages/android.nix
@@ -29,6 +28,7 @@
       ./private/boot.nix
       ./private/devops.nix
       ./private/filesystems.nix
+      ./private/filesystems-remote.nix
       ./private/hardware.nix
       ./private/i18n.nix
       ./private/location.nix
@@ -38,6 +38,7 @@
       ./private/packages.nix
       ./private/packages/games.nix
 #      ./private/services/alsa.nix
+      ./private/services/autofs.nix
       ./private/services/apache.nix
       ./private/services/cron.nix
       ./private/services/docker.nix
