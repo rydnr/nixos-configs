@@ -45,7 +45,7 @@
     p7zip
     paprefs
     par2cmdline
-    patchelf
+    patchelfUnstable
     pavucontrol
     psmisc
     pulseaudioFull
