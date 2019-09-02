@@ -45,11 +45,12 @@
     php
     python
     python36
-    pythonPackages.virtualenv
+    pythonPackages.beautifulsoup4
     pythonPackages.pip
     pythonPackages.powerline
     pythonPackages.rpkg
     pythonPackages.svg2tikz
+    pythonPackages.virtualenv
     ruby
     stack
     sublime
