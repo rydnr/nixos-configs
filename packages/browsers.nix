@@ -7,6 +7,7 @@
     firefoxWrapper
     firefox-devedition-bin
     firefox-esr-52
+    firefox-esr-52-unwrapped
     tor
   ];
 
