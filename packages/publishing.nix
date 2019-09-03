@@ -52,5 +52,6 @@
     python3Packages.sphinx
     xournal
     xpdf
+    zotero
   ];
 }
