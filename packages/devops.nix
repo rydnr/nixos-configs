@@ -40,6 +40,7 @@
     linuxPackages.virtualbox
     lsof
     ltrace
+    mailutils
     mcron
     minikube
     mongodb

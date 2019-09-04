@@ -48,6 +48,7 @@
       ./private/services/syncthing.nix
       ./private/services/udev.nix
       ./private/services/xserver.nix
+      ./private/smtp.nix
       ./private/sysctl.nix
       ./private/time.nix
       ./private/users.nix
