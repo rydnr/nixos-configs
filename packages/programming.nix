@@ -49,6 +49,7 @@
     pythonPackages.pip
     pythonPackages.powerline
     pythonPackages.rpkg
+    pythonPackages.scrapy
     pythonPackages.svg2tikz
     pythonPackages.virtualenv
     ruby
