@@ -60,6 +60,7 @@
       ./services/cups.nix
       ./services/dunst.nix
       ./services/emacs.nix
+      ./services/libvirtd.nix
       ./services/locate.nix
       ./services/mongodb.nix
       ./services/nix-gc.nix

@@ -12,7 +12,5 @@
       enable = false;
       x11 = true;
     };
-#    enableExtensionPack = true;
-#    libvirtd.enable = false;
   };
 }

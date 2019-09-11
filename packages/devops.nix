@@ -38,6 +38,7 @@
     keychain
     kubernetes
     linuxPackages.virtualbox
+    libguestfs
     libvirt
     lsof
     ltrace
@@ -58,6 +59,7 @@
     pciutils
 #    postfix
     postgresql
+    qemu
     redis
     robo3t
     rsnapshot
