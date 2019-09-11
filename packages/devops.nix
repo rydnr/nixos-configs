@@ -38,12 +38,14 @@
     keychain
     kubernetes
     linuxPackages.virtualbox
+    libvirt
     lsof
     ltrace
     mailutils
     mcron
     minikube
     mongodb
+    mutt
     net_snmp
     nix-index
     nmap
@@ -65,6 +67,7 @@
     terminator
     terraform
     thc-hydra
+    tilix
     tmux
     tmuxinator
     tree
@@ -74,6 +77,7 @@
     usbutils
     vagrant
     virtualbox
+    virtmanager
     watchman
     wget
     which
