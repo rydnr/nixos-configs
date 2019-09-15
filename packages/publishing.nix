@@ -20,7 +20,7 @@
         inherit (texlive)
         algorithms
         collection-basic
-        collection-context 
+# infinite recursion        collection-context 
         collection-fontsrecommended 
         collection-fontutils 
         collection-humanities
