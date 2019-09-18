@@ -57,6 +57,7 @@
     sharutils
     stalonetray
     synergy
+    taffybar
     transcode
     unrar
     vlc
