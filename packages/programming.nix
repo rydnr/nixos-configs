@@ -43,8 +43,8 @@
     pharo-spur64
     pharo-launcher
     php
-    python
-    python36
+#    python
+    python37
     pythonPackages.beautifulsoup4
     pythonPackages.pip
     pythonPackages.powerline
