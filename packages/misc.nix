@@ -21,6 +21,7 @@
     fasd
     file
     ffmpeg-full
+    fortune
     fuse_exfat
     gettext
     glibc
