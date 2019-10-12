@@ -11,5 +11,6 @@
     pulseaudioFull
     perlPackages.MusicBrainzDiscID
     perlPackages.MusicBrainz
+    spotify
   ];
 }

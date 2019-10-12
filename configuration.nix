@@ -26,7 +26,6 @@
       ./packages/xmonad.nix
       ./private/audio.nix
       ./private/boot.nix
-      ./private/devops.nix
       ./private/filesystems.nix
       ./private/filesystems-remote.nix
       ./private/hardware.nix
