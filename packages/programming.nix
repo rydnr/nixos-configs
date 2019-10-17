@@ -8,6 +8,7 @@
     bundix
     chromedriver
     compass
+    cudatoolkit
     dart
     eclipses.eclipse-sdk
 # try me again!    ecj
@@ -34,7 +35,7 @@
     notmuch-bower
 #    octave
     openssl
-    oraclejdk
+#    oraclejdk
     openjdk12
     openjdk
 #    pharo
@@ -46,11 +47,15 @@
 #    python
     python37
     pythonPackages.beautifulsoup4
+    pythonPackages.jupyter
+    pythonPackages.Keras
     pythonPackages.pip
     pythonPackages.powerline
     pythonPackages.rpkg
+    pythonPackages.scikitlearn
     pythonPackages.scrapy
     pythonPackages.svg2tikz
+    pythonPackages.tensorflowWithCuda
     pythonPackages.virtualenv
     ruby
     stack

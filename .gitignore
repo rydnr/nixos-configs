@@ -5,4 +5,5 @@ private/hardware.nix
 private/networking.nix
 private/power.nix
 private/services/docker.nix
+private/services/nvidia.nix
 private/services/xserver.nix

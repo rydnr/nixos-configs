@@ -6,8 +6,9 @@
     arandr
     audacity
     autocutsel
-    discord
     blender
+    cudatoolkit
+    discord
     dmenu
     dropbox
     enhanced-ctorrent
@@ -39,6 +40,7 @@
     tmuxinator
 #    torbrowser
 #    torchat
+    unity3d
 #    wine
     xclip
     xdotool

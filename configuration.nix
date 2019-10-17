@@ -43,6 +43,7 @@
       ./private/services/docker.nix
       ./private/services/openvpn.nix
       ./private/services/postfix.nix
+      ./private/services/nvidia.nix
       ./private/services/remove-rt-locks.nix
       ./private/services/syncthing.nix
       ./private/services/udev.nix
