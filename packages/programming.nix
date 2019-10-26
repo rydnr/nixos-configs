@@ -53,18 +53,18 @@
     pythonPackages.powerline
     pythonPackages.rpkg
     pythonPackages.scikitlearn
-    pythonPackages.scrapy
+#    pythonPackages.scrapy
     pythonPackages.svg2tikz
-    pythonPackages.tensorflowWithCuda
+#    pythonPackages.tensorflowWithCuda
     pythonPackages.virtualenv
     ruby
     stack
-    sublime
+#    sublime
     subversion
     tlaplus
     tlaps
     tlaplusToolbox
-    thrift
+#    thrift
     tmuxinator
     vim
 #    vscode
