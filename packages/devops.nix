@@ -6,7 +6,7 @@
     alacritty
     atop
     awscli
-    aws_shell
+#    aws_shell
     aircrack-ng
     arping
     arpoison
