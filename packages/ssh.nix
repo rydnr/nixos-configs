@@ -1,6 +1,7 @@
 { config, lib, pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
+    libssh2
     ssh-ident
   ];
 

@@ -16,12 +16,19 @@
       ./packages/browsers.nix
       ./packages/desktopapps.nix
       ./packages/devops.nix
+      ./packages/editors.nix
+      ./packages/java.nix
+      ./packages/languages.nix
       ./packages/misc.nix
+      ./packages/nodejs.nix
+      ./packages/pharo.nix
       ./packages/programming.nix
       ./packages/publishing.nix
-      ./packages/version-control.nix
+      ./packages/python.nix
       ./packages/screensavers.nix
+      ./packages/shells.nix
       ./packages/ssh.nix
+      ./packages/version-control.nix
       ./packages/x11.nix
       ./packages/xmonad.nix
       ./private/audio.nix
@@ -36,6 +43,7 @@
       ./private/nix.nix
       ./private/packages.nix
       ./private/packages/games.nix
+      ./private/packages/machinelearning.nix
 #      ./private/services/alsa.nix
       ./private/services/autofs.nix
       ./private/services/apache.nix

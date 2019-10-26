@@ -3,6 +3,7 @@ private/boot.nix
 private/filesystems.nix
 private/hardware.nix
 private/networking.nix
+private/packages/machinelearning.nix
 private/power.nix
 private/services/docker.nix
 private/services/nvidia.nix

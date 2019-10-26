@@ -25,6 +25,7 @@
     gitAndTools.git-stree
     gitAndTools.git2cl
     gitAndTools.gitflow
+    gitAndTools.gitFull
     gitAndTools.hub
     gitAndTools.qgit
     gitAndTools.stgit
