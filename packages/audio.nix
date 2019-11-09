@@ -9,8 +9,8 @@
     asunder
     pavucontrol
     pulseaudioFull
-    perlPackages.MusicBrainzDiscID
-    perlPackages.MusicBrainz
+#    perlPackages.MusicBrainzDiscID
+#    perlPackages.MusicBrainz
     spotify
   ];
 }

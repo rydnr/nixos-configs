@@ -7,7 +7,7 @@
     aspellDicts.en
     aspellDicts.es
     bundler
-    calibre
+#    calibre
     cups
     dia
     ditaa

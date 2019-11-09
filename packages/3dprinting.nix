@@ -5,6 +5,6 @@
   environment.systemPackages = with pkgs; [
     arduino
     cura
-    pythonPackages.pilkit
+    python3Packages.pilkit
   ];
 }

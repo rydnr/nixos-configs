@@ -7,7 +7,7 @@
     alsaPlugins
     alsaPluginWrapper
     anki
-    autofs5
+#    autofs5
     bc
     bluez
     bluez-tools

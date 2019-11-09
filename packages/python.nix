@@ -5,16 +5,16 @@
   environment.systemPackages = with pkgs; [
 #    python
     python37
-    pythonPackages.beautifulsoup4
-    pythonPackages.jupyter
-    pythonPackages.Keras
-    pythonPackages.pip
-    pythonPackages.powerline
-    pythonPackages.rpkg
-    pythonPackages.scikitlearn
-#    pythonPackages.scrapy
-    pythonPackages.svg2tikz
-    pythonPackages.virtualenv
+    python37Packages.beautifulsoup4
+    python37Packages.jupyter
+    python37Packages.Keras
+    python37Packages.pip
+    python37Packages.powerline
+#    python37Packages.rpkg
+    python37Packages.scikitlearn
+#    python37Packages.scrapy
+#    python37Packages.svg2tikz
+    python37Packages.virtualenv
   ];
 }
 
