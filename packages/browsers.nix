@@ -9,6 +9,7 @@
     firefox-esr-52
     firefox-esr-52-unwrapped
     tor
+#    torbrowser
   ];
 
   nixpkgs.config = {

@@ -29,27 +29,26 @@
     rxvt_unicode-with-plugins
     screen
     scrot
-#    skypeforlinux
+    skypeforlinux
     slack
     slack-cli
-#    synfigstudio
+# marked as broken    synfigstudio
     stalonetray
-#    teamspeak_client
+# shows a license    teamspeak_client
     tigervnc
     tmux
     tmuxinator
-#    torbrowser
-#    torchat
+    torchat
     unity3d
-#    wine
+    wine
     xclip
     xdotool
     xfontsel
     xlibs.xmessage
     xmacro
     xpdf
-#    xzgv
-#    zoom-us
-#    zathura
+    xzgv
+    zoom-us
+    zathura
   ];
 }
