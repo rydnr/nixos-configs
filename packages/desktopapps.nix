@@ -14,8 +14,6 @@
     enhanced-ctorrent
     feh
     fontconfig
-    ghostscript
-    ghostscriptX
     gimp
     gpicview
     gwenview

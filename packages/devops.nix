@@ -26,10 +26,11 @@
     ettercap
     fish
     gatling
+    gnupg
     google-cloud-sdk
     google-cloud-sdk-gce
     google-compute-engine
-    gnupg
+    grpcurl
     hdparm
     hwdata
     inetutils
