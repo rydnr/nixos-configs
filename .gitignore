@@ -7,4 +7,5 @@ private/packages/machinelearning.nix
 private/power.nix
 private/services/docker.nix
 private/services/nvidia.nix
+private/services/openvpn.nix
 private/services/xserver.nix
