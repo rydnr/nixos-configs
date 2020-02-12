@@ -27,7 +27,7 @@
     rxvt_unicode-with-plugins
     screen
     scrot
-    skypeforlinux
+# 404    skypeforlinux
     slack
     slack-cli
 # marked as broken    synfigstudio
