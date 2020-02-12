@@ -3,26 +3,23 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
+    firefox-esr-52
+    firefox-esr-52-unwrapped
     chromium
     firefoxWrapper
     firefox-devedition-bin
-    firefox-esr-52
-    firefox-esr-52-unwrapped
     google-chrome
+#    next
     tor
 #    torbrowser
   ];
 
   nixpkgs.config = {
-    allowUnfree = true;
-
     firefox = {
 #      enableAdobeFlash = true;
       enableGoogleTalkPlugin = true;
       jre = true;
     };
-
-    oraclejdk.accept_license = true;
 
 #    chromium = {
 #      enableAdobeFlash = true;

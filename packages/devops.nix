@@ -23,7 +23,7 @@
     ec2_api_tools
     ec2_ami_tools
 #    eternal-terminal
-    ettercap
+#    ettercap
     fish
     gatling
     gnupg

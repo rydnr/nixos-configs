@@ -51,7 +51,7 @@
     python3Packages.pygments
     python3Packages.sphinx
     xournal
-    xpdf
+    yacreader
     zotero
   ];
 }

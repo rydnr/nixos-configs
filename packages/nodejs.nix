@@ -5,7 +5,7 @@
   environment.systemPackages = with pkgs; [
     nodejs_latest
     nodePackages.node2nix
-    notmuch-bower
+#    notmuch-bower
     yarn
   ];
 }

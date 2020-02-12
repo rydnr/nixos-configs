@@ -12,7 +12,7 @@
 #    gitAndTools.git-codeowners
     git-cola
     git-crypt
-    gitAndTools.git-dit
+#    gitAndTools.git-dit
     gitAndTools.git-extras
 #    gitAndTools.git-fame
     git-hub

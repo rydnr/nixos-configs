@@ -33,7 +33,7 @@
 # marked as broken    synfigstudio
     stalonetray
 # shows a license    teamspeak_client
-    tigervnc
+#    tigervnc
     tmux
     tmuxinator
     torchat
@@ -44,7 +44,6 @@
     xfontsel
     xlibs.xmessage
     xmacro
-    xpdf
     xzgv
     zoom-us
     zathura

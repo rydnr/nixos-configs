@@ -20,6 +20,7 @@
       ./packages/java.nix
       ./packages/languages.nix
       ./packages/misc.nix
+      ./packages/music.nix
       ./packages/nodejs.nix
       ./packages/pharo.nix
       ./packages/programming.nix
