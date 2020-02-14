@@ -16,6 +16,10 @@
     ghostscriptX
     hugo
     jekyll
+    mdp
+    pandoc
+    python3Packages.pygments
+    python3Packages.sphinx
     (texlive.combine {
         inherit (texlive)
         algorithms
@@ -47,9 +51,6 @@
         tikzscale
         ;
     })
-    pandoc
-    python3Packages.pygments
-    python3Packages.sphinx
     xournal
     yacreader
     zotero
