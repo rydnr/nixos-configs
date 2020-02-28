@@ -4,11 +4,4 @@
 
 { config, pkgs, ... }:
 
-{
-  # The NixOS release to be compatible with for stateful data such as databases.
-  system.stateVersion = "20.03";
-
-#  system.autoUpgrade.enable = true;
-
-#  system.autoUpgrade.channel = https://nixos.org/channels/nixos-20.03;
-}
+{ nixpkgs.config.allowBroken = true; }

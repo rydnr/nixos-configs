@@ -7,6 +7,7 @@
 {
   imports =
     [
+#      ./allow-broken.nix
       ./bluetooth.nix
       ./fonts.nix
       ./nixpkgs.nix
@@ -36,11 +37,14 @@
       ./packages/xmonad.nix
       ./private/audio.nix
       ./private/boot.nix
+      ./private/console.nix
+      ./private/clients.nix
+#      ./private/configs/xmonad.nix
       ./private/filesystems.nix
       ./private/filesystems-remote.nix
       ./private/hardware.nix
       ./private/i18n.nix
-      ./private/location.nix
+##      ./private/location.nix
       ./private/power.nix
       ./private/networking.nix
       ./private/nix.nix
@@ -48,7 +52,7 @@
       ./private/packages/games.nix
       ./private/packages/machinelearning.nix
 #      ./private/services/alsa.nix
-      ./private/services/autofs.nix
+#      ./private/services/autofs.nix
       ./private/services/apache.nix
       ./private/services/cron.nix
       ./private/services/docker.nix
@@ -56,10 +60,10 @@
       ./private/services/postfix.nix
       ./private/services/nvidia.nix
       ./private/services/remove-rt-locks.nix
+      ./private/services/ssmtp.nix
       ./private/services/syncthing.nix
       ./private/services/udev.nix
       ./private/services/xserver.nix
-      ./private/smtp.nix
       ./private/sysctl.nix
       ./private/time.nix
       ./private/users.nix
@@ -75,7 +79,7 @@
       ./services/locate.nix
       ./services/mongodb.nix
       ./services/nix-gc.nix
-      ./services/redshift.nix
+##      ./services/redshift.nix
       ./services/ssh.nix
       ./services/unclutter.nix
       ./services/upower.nix

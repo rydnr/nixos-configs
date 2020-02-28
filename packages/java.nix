@@ -11,7 +11,7 @@
     idea.idea-ultimate
     maven
 #    oraclejdk
-    openjdk12
+##    openjdk12
     openjdk
   ];
 

@@ -54,12 +54,13 @@
     nox
     openconnect
     opendkim
-#    openssl
+    openshift
     openvpn
     packer
     pciutils
 #    postfix
     postgresql
+    postman
     qemu
     redis
     robo3t

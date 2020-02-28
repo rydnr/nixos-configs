@@ -9,6 +9,8 @@
     gnuplot
     nitrogen
 #    octave
+    openssl
+    sqlite
     stack
 #    thrift
     watchman

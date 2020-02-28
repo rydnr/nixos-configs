@@ -5,8 +5,8 @@
 
     serviceConfig               = {
       Type      = "forking";
-      ExecStart = "emacs --daemon";
-      ExecStop  = "emacsclient --eval (kill-emacs)";
+      ExecStart = "/run/current-system/sw/bin/emacs --daemon";
+      ExecStop  = "/run/current-system/sw/bin/emacsclient --eval (kill-emacs)";
       Restart   = "always";
     };
   };

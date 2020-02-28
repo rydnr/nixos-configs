@@ -49,8 +49,8 @@
             mplus-outline-fonts
 # 404            nerdfonts
             ocamlPackages.fontconfig
-            perlPackages.FontAFM
-            perlPackages.FontTTF
+#            perlPackages.FontAFM
+#            perlPackages.FontTTF
             powerline-fonts
             proggyfonts
             soundfont-fluid

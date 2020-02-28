@@ -53,6 +53,7 @@
     })
     xournal
     yacreader
+#    xpdf
     zotero
   ];
 }

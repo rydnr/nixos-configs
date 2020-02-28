@@ -10,5 +10,6 @@
 #    next
     tor
 #    torbrowser
+    next
   ];
 }
