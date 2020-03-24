@@ -17,6 +17,7 @@
       ./packages/desktopapps.nix
       ./packages/devops.nix
       ./packages/editors.nix
+#      ./packages/firefox52esr.nix
       ./packages/java.nix
       ./packages/languages.nix
       ./packages/misc.nix
