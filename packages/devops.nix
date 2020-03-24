@@ -70,7 +70,7 @@
     terminator
     terraform
     thc-hydra
-    tilix
+#    tilix
     tmux
     tmuxinator
     tree

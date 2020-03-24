@@ -6,7 +6,7 @@
 #    python
     python37
     python37Packages.beautifulsoup4
-    python37Packages.jupyter
+#    python37Packages.jupyter
     python37Packages.Keras
     python37Packages.pip
     python37Packages.powerline

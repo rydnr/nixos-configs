@@ -24,7 +24,7 @@
       ./packages/nodejs.nix
       ./packages/pharo.nix
       ./packages/programming.nix
-      ./packages/publishing.nix
+#      ./packages/publishing.nix
       ./packages/python.nix
       ./packages/screensavers.nix
       ./packages/shells.nix
