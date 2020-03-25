@@ -1,14 +1,15 @@
 { config, pkgs, ... }:
 {
-#  services.vsftpd = {
-#    enable = true;
+  services.vsftpd = {
+    enable = true;
 #    anonymousUserHome = "/tmp/ftp";
-#    anonymousUser = true;
-#    anonymousUploadEnable = true;
-#    anonymousUserNoPassword = true;
-#    anonymousMkdirEnable = true;
-#    anonymousUmask = "000";
-#    localUsers = true;
-#    writeEnable = true;
-#  };
+    anonymousUser = true;
+    anonymousUploadEnable = true;
+    anonymousMkdirEnable = true;
+    anonymousUserNoPassword = true;
+    anonymousUmask = "0000";
+    localUsers = false;
+    writeEnable = true;
+#    chrootLocalUsers = false;
+  };
 }

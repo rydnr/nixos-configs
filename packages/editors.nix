@@ -5,6 +5,7 @@
   environment.systemPackages = with pkgs; [
     emacs
     idea.idea-ultimate
+    leo-editor
     vim
 #    vscode
 #    vscode-utils
