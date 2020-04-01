@@ -10,6 +10,7 @@
       ./bluetooth.nix
       ./fonts.nix
       ./nixpkgs.nix
+      ./packages/3dprinting.nix
 #      ./packages/android.nix
       ./packages/audio.nix
       ./packages/bash.nix
@@ -25,7 +26,7 @@
       ./packages/nodejs.nix
       ./packages/pharo.nix
       ./packages/programming.nix
-#      ./packages/publishing.nix
+      ./packages/publishing.nix
       ./packages/python.nix
       ./packages/screensavers.nix
       ./packages/shells.nix
