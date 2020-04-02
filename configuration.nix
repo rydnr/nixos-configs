@@ -22,6 +22,7 @@
 #      ./packages/firefox52esr.nix
       ./packages/java.nix
       ./packages/languages.nix
+#      ./packages/latex.nix
       ./packages/messaging.nix
       ./packages/misc.nix
       ./packages/music.nix
