@@ -22,9 +22,11 @@
 #      ./packages/firefox52esr.nix
       ./packages/java.nix
       ./packages/languages.nix
+      ./packages/messaging.nix
       ./packages/misc.nix
       ./packages/music.nix
       ./packages/nodejs.nix
+      ./packages/openssl-insecure.nix
       ./packages/pharo.nix
       ./packages/programming.nix
       ./packages/publishing.nix

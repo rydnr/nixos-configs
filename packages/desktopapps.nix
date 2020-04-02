@@ -8,7 +8,6 @@
     autocutsel
     blender
     cudatoolkit
-    discord
     dmenu
     dropbox
     enhanced-ctorrent
@@ -28,9 +27,6 @@
     rxvt_unicode-with-plugins
     screen
     scrot
-# 404    skypeforlinux
-    slack
-    slack-cli
 # marked as broken    synfigstudio
     stalonetray
 # shows a license    teamspeak_client
