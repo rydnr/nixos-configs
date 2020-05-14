@@ -18,6 +18,7 @@
     dmidecode
     dpkg
 #    extraterm
+    etcher
     fasd
     file
     ffmpeg-full
