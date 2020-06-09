@@ -8,6 +8,7 @@
     alsaPluginWrapper
     anki
 #    autofs5
+    autossh
     bc
     bluez
     bluez-tools
@@ -41,6 +42,7 @@
     libsemanage
     libsepol
     lsdvd
+    maildrop
 #    megasync
     mkvtoolnix
     newt

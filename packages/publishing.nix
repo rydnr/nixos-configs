@@ -21,7 +21,7 @@
     python3Packages.pygments
     python3Packages.sphinx
     xournal
-    yacreader
+#    yacreader
 #    xpdf
     zotero
   ];

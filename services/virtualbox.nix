@@ -3,13 +3,14 @@
 {
   config.virtualisation.virtualbox = {
     host = {
-      enable = false;
-      headless = false;
+      enable = true;
+      headless = true;
       enableHardening = false;
       addNetworkInterface = true;
+      enableExtensionPack = true;
     };
     guest = {
-      enable = false;
+      enable = true;
       x11 = true;
     };
   };

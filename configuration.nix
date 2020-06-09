@@ -59,6 +59,7 @@
       ./private/services/apache.nix
       ./private/services/cron.nix
       ./private/services/docker.nix
+#      ./private/services/kubernetes.nix
       ./private/services/openvpn.nix
       ./private/services/postfix.nix
       ./private/services/nvidia.nix
