@@ -13,7 +13,7 @@
     bc
     bind
     binutils-unwrapped
-    burpsuite
+# 404    burpsuite
     colordiff
     cron
     dnsperf

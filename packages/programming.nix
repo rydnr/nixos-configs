@@ -9,7 +9,7 @@
     gnuplot
     nitrogen
 #    octave
-    openssl
+#    openssl
     sqlite
     stack
 #    thrift

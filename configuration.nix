@@ -41,7 +41,7 @@
       ./private/audio.nix
       ./private/boot.nix
       ./private/console.nix
-      ./private/clients.nix
+#      ./private/clients.nix
 #      ./private/configs/xmonad.nix
       ./private/filesystems.nix
       ./private/filesystems-remote.nix

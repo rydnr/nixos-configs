@@ -34,7 +34,6 @@
     tmux
     tmuxinator
     torchat
-    unity3d
     wine
     xclip
     xdotool
