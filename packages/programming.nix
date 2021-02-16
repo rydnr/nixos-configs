@@ -9,7 +9,8 @@
     gnuplot
     nitrogen
 #    octave
-#    openssl
+    openssl
+    qt5.full
     sqlite
     stack
 #    thrift
