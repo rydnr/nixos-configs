@@ -50,6 +50,7 @@
       ./private/i18n.nix
 ##      ./private/location.nix
       ./private/power.nix
+      ./private/location.nix
       ./private/networking.nix
       ./private/nix.nix
       ./private/packages.nix
