@@ -14,7 +14,8 @@
     go_bootstrap
     nitrogen
 #    octave
-#    openssl
+    openssl
+    qt5.full
     ripgrep
     sass
     sqlite
