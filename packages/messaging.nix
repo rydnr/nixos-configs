@@ -3,10 +3,10 @@
   environment.systemPackages = with pkgs; [
     discord
     jitsi
-    skypeforlinux
+#    skypeforlinux
     slack
     slack-cli
     teams
-    zoom-us
+#    zoom-us
   ];
 }

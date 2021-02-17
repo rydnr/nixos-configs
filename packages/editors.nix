@@ -12,5 +12,13 @@
     vscode-with-extensions
     vscodium
   ];
+
+  nixpkgs.overlays = [
+    (self: super:
+      let unstable = builtins.fetchTarball https://github.com/nixos/nixpkgs-channels/archive/nixos-unstable.tar.gz; in {
+        emacs = (import unstable { }).emacs;
+      }
+    )
+  ];
 }
 

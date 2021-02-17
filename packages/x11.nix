@@ -4,6 +4,7 @@
   # $ nix-env -qaP | grep wget
   environment = {
     systemPackages = with pkgs; [
+     dunst
      fontconfig
      glxinfo
      guvcview
@@ -13,6 +14,7 @@
      lxappearance
      screen
      shared_mime_info
+     simplescreenrecorder
      uvccapture
      tilda
      tmux
@@ -34,6 +36,7 @@
      xlibs.xmessage
      xorg.xev
 #     xorg.xf86videonvidia
+     xorg.xinit
      xorg.xkill
      xorg.xmessage
      xorg.xmodmap

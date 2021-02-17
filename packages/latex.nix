@@ -24,7 +24,6 @@
         fancyhdr
         minted
         pdftex
-        pdftools
         pdftricks
         pdftricks2
         pstricks

@@ -12,17 +12,18 @@
       ./fonts.nix
       ./nixpkgs.nix
       ./packages/3dprinting.nix
-#      ./packages/android.nix
+      ./packages/android.nix
       ./packages/audio.nix
       ./packages/bash.nix
       ./packages/browsers.nix
+      ./packages/crypto.nix
       ./packages/desktopapps.nix
       ./packages/devops.nix
       ./packages/editors.nix
 #      ./packages/firefox52esr.nix
       ./packages/java.nix
       ./packages/languages.nix
-#      ./packages/latex.nix
+      ./packages/latex.nix
       ./packages/messaging.nix
       ./packages/misc.nix
       ./packages/music.nix
@@ -55,7 +56,7 @@
       ./private/packages/games.nix
       ./private/packages/machinelearning.nix
 #      ./private/services/alsa.nix
-#      ./private/services/autofs.nix
+      ./private/services/autofs.nix
       ./private/services/apache.nix
       ./private/services/cron.nix
       ./private/services/docker.nix
@@ -83,8 +84,9 @@
       ./services/locate.nix
       ./services/mongodb.nix
       ./services/nix-gc.nix
-##      ./services/redshift.nix
+      ./services/redshift.nix
       ./services/ssh.nix
+      ./services/trezord.nix
       ./services/unclutter.nix
       ./services/upower.nix
       ./services/urxvtd.nix

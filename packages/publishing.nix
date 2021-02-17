@@ -14,6 +14,7 @@
     evince
     ghostscript
     ghostscriptX
+    graphviz
     hugo
     jekyll
     mdp

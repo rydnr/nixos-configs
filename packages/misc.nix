@@ -12,9 +12,11 @@
     bc
     bluez
     bluez-tools
+    busybox
     cifs_utils
     conky
     cowsay
+    dash
     davfs2
     dmidecode
     dpkg
@@ -25,9 +27,11 @@
     ffmpeg-full
     fortune
     fuse_exfat
+    fzf
     gettext
     glibc
     gnome3.cheese
+    gnome3.zenity
 #    go-mtpfs
     googler
     hicolor_icon_theme
@@ -43,8 +47,9 @@
     libsepol
     lsdvd
     maildrop
-#    megasync
+    megasync
     mkvtoolnix
+    mu
     newt
     nzbget
     p7zip

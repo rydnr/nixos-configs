@@ -10,7 +10,10 @@
             dina-font
             dina-font-pcf
             dosemu_fonts
-#            emacs-all-the-icons-fonts
+            emacs-all-the-icons-fonts
+            etBook
+            fira-code
+            fira-code-symbols
             font-awesome-ttf
             fontconfig
             fontconfig_210

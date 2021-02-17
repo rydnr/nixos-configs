@@ -7,7 +7,7 @@
     audacity
     autocutsel
     blender
-    cudatoolkit
+#    cudatoolkit
     dmenu
     dropbox
     enhanced-ctorrent

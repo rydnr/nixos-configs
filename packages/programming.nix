@@ -5,11 +5,18 @@
   environment.systemPackages = with pkgs; [
     bundix
     chromedriver
+    clang
+    cmake
     compass
+    coreutils
+    fd
     gnuplot
+    go_bootstrap
     nitrogen
 #    octave
 #    openssl
+    ripgrep
+    sass
     sqlite
     stack
 #    thrift

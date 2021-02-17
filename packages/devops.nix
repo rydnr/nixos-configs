@@ -22,8 +22,11 @@
     docker-machine
     ec2_api_tools
     ec2_ami_tools
+    efibootmgr
+    eksctl
+    elvish
 #    eternal-terminal
-#    ettercap
+    ettercap
     fish
     gatling
     gnupg
@@ -38,7 +41,8 @@
     iotop
     keychain
     kubernetes
-    linuxPackages.virtualbox
+    kubernetes-helm
+#    linuxPackages.virtualbox
     libguestfs
     libvirt
     lsof
@@ -57,6 +61,7 @@
     openshift
     openvpn
     packer
+    parted
     pciutils
 #    postfix
     postgresql
@@ -65,6 +70,7 @@
     redis
     robo3t
     rsnapshot
+    s3fs
     screen
     socat
     sysstat
@@ -80,7 +86,7 @@
     unzip
     usbutils
     vagrant
-    virtualbox
+#    virtualbox
     virtmanager
     watchman
     wget

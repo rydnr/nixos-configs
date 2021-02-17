@@ -4,10 +4,9 @@
   config.virtualisation.virtualbox = {
     host = {
       enable = true;
-      headless = true;
       enableHardening = false;
       addNetworkInterface = true;
-      enableExtensionPack = true;
+      enableExtensionPack = false;
     };
     guest = {
       enable = true;
