@@ -17,6 +17,7 @@
     gitAndTools.git-extras
 #    gitAndTools.git-fame
     git-hub
+    git-lfs
     gitAndTools.git-imerge
 #    gitAndTools.git-octopus
 #    gitAndTools.git-open

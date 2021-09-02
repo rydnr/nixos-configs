@@ -4,17 +4,29 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
 #    python
-    python37
-    python37Packages.beautifulsoup4
-#    python37Packages.jupyter
-    python37Packages.Keras
-    python37Packages.pip
-    python37Packages.powerline
-#    python37Packages.rpkg
-    python37Packages.scikitlearn
-#    python37Packages.scrapy
-#    python37Packages.svg2tikz
-    python37Packages.virtualenv
+    python3
+    python3Packages.beautifulsoup4
+    python3Packages.black
+    python3Packages.conda
+    python3Packages.editorconfig
+    python3Packages.isort
+    python3Packages.jsbeautifier
+    python3Packages.jsondiff
+    python3Packages.jupyter
+    python3Packages.Keras
+    python3Packages.nose
+    python3Packages.pip
+    pipenv
+    python3Packages.poetry
+    python3Packages.powerline
+    # python3Packages.pyenv
+    python3Packages.pyflakes
+    python3Packages.pytest
+#    python3Packages.rpkg
+    python3Packages.scikitlearn
+#    python3Packages.scrapy
+#    python3Packages.svg2tikz
+    python3Packages.virtualenv
   ];
 }
 

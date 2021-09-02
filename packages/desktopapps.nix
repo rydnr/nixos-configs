@@ -7,7 +7,6 @@
     audacity
     autocutsel
     blender
-#    cudatoolkit
     dmenu
     dropbox
     enhanced-ctorrent
@@ -41,7 +40,6 @@
     xlibs.xmessage
     xmacro
     xzgv
-    zoom-us
     zathura
   ];
 }

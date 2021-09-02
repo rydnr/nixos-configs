@@ -13,6 +13,7 @@
     bluez
     bluez-tools
     busybox
+    cachix
     cifs_utils
     conky
     cowsay
@@ -33,6 +34,7 @@
     gnome3.cheese
     gnome3.zenity
 #    go-mtpfs
+    google-drive-ocamlfuse
     googler
     hicolor_icon_theme
     i3
@@ -42,6 +44,7 @@
     jack2Full
     imagemagick
     lame
+    ledger
     libselinux
     libsemanage
     libsepol
@@ -51,6 +54,8 @@
     mkvtoolnix
     mu
     newt
+    nixfmt
+    noisetorch
     nzbget
     p7zip
     paprefs
@@ -59,21 +64,24 @@
     pavucontrol
     psmisc
     pulseaudioFull
+    python38Packages.youtube-dl
     qjackctl
     ranger
-    rxvt
     sabnzbd
     sharutils
+    simplescreenrecorder
     stalonetray
     synergy
 #    taffybar
     transcode
     unrar
     vlc
+    vokoscreen
     vsftpd
     wpa_supplicant
     xcalib
     xclip
+    xorg.xkbcomp
     xsel
     zlib
   ];

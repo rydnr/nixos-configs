@@ -10,7 +10,9 @@
     gdb
     gfortran
     gnumake
-#    go
+    go
+    libcap
+    libtool
     php
     ruby
     tlaplus

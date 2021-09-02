@@ -21,6 +21,7 @@
     pandoc
     python3Packages.pygments
     python3Packages.sphinx
+#    scribusUnstable
     xournal
 #    yacreader
 #    xpdf

@@ -10,14 +10,20 @@
     compass
     coreutils
     fd
+    hlint
     gnuplot
-    go_bootstrap
+#    go_bootstrap
+    libpng.dev
     nitrogen
 #    octave
     openssl
+    pngquant
     qt5.full
     ripgrep
     sass
+    schemaspy
+    shellcheck
+    shfmt
     sqlite
     stack
 #    thrift

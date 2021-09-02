@@ -52,8 +52,6 @@
       
       # Set GTK_DATA_PREFIX so that GTK+ can find the Xfce themes.
       export GTK_DATA_PREFIX=${config.system.path}
-      # Set GIO_EXTRA_MODULES so that gvfs works.
-      export GIO_EXTRA_MODULES=${pkgs.xfce.gvfs}/lib/gio/modules
       export XCURSOR_PATH="${config.system.path}/share/icons:$HOME/.icons:$HOME/.nix-profile/share/icons/"
       # Launch xfce settings daemon.
 #      xfsettingsd &

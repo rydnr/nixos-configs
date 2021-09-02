@@ -39,6 +39,7 @@
     inetutils
     inotify-tools
     iotop
+    junkie
     keychain
     kubernetes
     kubernetes-helm
@@ -53,11 +54,13 @@
     mongodb
     mutt
     net_snmp
+    ngrok-1
     nix-index
     nmap
     nox
     openconnect
     opendkim
+    openfortivpn
     openshift
     openvpn
     packer
@@ -71,9 +74,11 @@
     robo3t
     rsnapshot
     s3fs
+    aws-sam-cli
     screen
     socat
     sysstat
+    tcpdump
     terminator
     terraform
     thc-hydra

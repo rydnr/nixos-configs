@@ -16,7 +16,6 @@
             fira-code-symbols
             font-awesome-ttf
             fontconfig
-            fontconfig_210
             fontforge
             fontforge-gtk
             fontmatrix
