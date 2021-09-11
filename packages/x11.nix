@@ -61,35 +61,4 @@
     pathsToLink =
       [ "/share/xfce4" "/share/themes" "/share/mime" "/share/desktop-directories" ];
   };
-
-  fonts = {
-    enableFontDir = true;
-    enableGhostscriptFonts = true;
-    fonts = with pkgs; [
-       andagii
-       anonymousPro
-       arkpandora_ttf
-       bakoma_ttf
-#       cantarell_fonts
-       corefonts
-      clearlyU
-      cm_unicode
-       dejavu_fonts
-       freefont_ttf
-       gentium
-       inconsolata
-       liberation_ttf
-       libertine
-       lmodern
-       mph_2b_damase
-       oldstandard
-       theano
-       tempora_lgc
-       terminus_font
-       ttf_bitstream_vera
-       ucsFonts
-       unifont
-       wqy_zenhei
-    ];
-  };
 }

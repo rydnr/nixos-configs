@@ -49,6 +49,7 @@
     # ./private/configs/xmonad.nix
     ./private/filesystems.nix
     ./private/filesystems-remote.nix
+    ./private/font-size.nix
     ./private/hardware.nix
     ./private/i18n.nix
     ##      ./private/location.nix
@@ -115,4 +116,8 @@
   #  nix.nixPath =
   #    options.nix.nixPath.default ++
   #    [ "nixpkgs-overlays=/etc/nixos/overlays-compat/overlays.nix" ];
+       nixpkgs.config.permittedInsecurePackages = [
+         "python2.7-Pillow-6.2.2"
+       ];
+
 }

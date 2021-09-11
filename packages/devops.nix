@@ -8,6 +8,7 @@
     awscli
 #    aws_shell
     aircrack-ng
+    anydesk
     arping
     arpoison
     bc
@@ -16,6 +17,7 @@
 # 404    burpsuite
     colordiff
     cron
+    dnsmasq
     dnsperf
     docker
     docker_compose

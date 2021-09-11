@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 {
     fonts = {
-        enableFontDir = true;
+        fontDir.enable = true;
         enableGhostscriptFonts = true;
         fonts = with pkgs; [
             cantarell_fonts
@@ -115,5 +115,13 @@
             xorg.mkfontdir
             xorg.mkfontscale
         ];
+    };
+    # bigger tty fonts
+    console.font = "${pkgs.terminus_font}/share/consolefonts/ter-u28n.psf.gz";
+    services.xserver.dpi = 180;
+    environment.variables = {
+        GDK_SCALE = "2";
+        GDK_DPI_SCALE = "0.5";
+        _JAVA_OPTIONS = "-Dsun.java2d.uiScale=2";
     };
 }     
