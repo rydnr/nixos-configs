@@ -13,7 +13,7 @@
     maven
     #    oraclejdk
     openjdk11
-    #    openjdk
+    openjdk8
   ];
 
   nixpkgs.config = {

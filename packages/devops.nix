@@ -15,8 +15,10 @@
     bind
     binutils-unwrapped
 # 404    burpsuite
+    cloud-sql-proxy
     colordiff
     cron
+    dbeaver
     dnsmasq
     dnsperf
     docker
@@ -68,6 +70,7 @@
     packer
     parted
     pciutils
+    pinentry
 #    postfix
     postgresql
     postman
