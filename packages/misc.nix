@@ -37,6 +37,7 @@
     google-drive-ocamlfuse
     googler
     hicolor_icon_theme
+    home-manager
     i3
     i3lock
     i3minator
