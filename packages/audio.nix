@@ -11,6 +11,14 @@
     pulseaudioFull
 #    perlPackages.MusicBrainzDiscID
 #    perlPackages.MusicBrainz
-    spotify
   ];
+
+
+  nixpkgs.config = {
+    packageOverrides = super: {
+      mplayer = super.mplayer.override {
+        pulseSupport = true;
+      };
+    };
+  };
 }

@@ -13,6 +13,13 @@
     hlint
     gnuplot
 #    go_bootstrap
+    gocode
+    goimports
+    gomodifytags
+    gore
+    gotests
+    ktlint
+    html-tidy
     libpng.dev
     nitrogen
 #    octave

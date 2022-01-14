@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 {
   systemd.user.services."xcape" = {
-    enable = true;
+    enable = false;
     description = "xcape to use CTRL as ESC when pressed alone";
     wantedBy = [ "default.target" ];
     serviceConfig.Type = "forking";

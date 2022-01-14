@@ -42,6 +42,7 @@
     i3lock
     i3minator
     i3status
+    inxi
     jack2Full
     imagemagick
     lame
@@ -82,6 +83,7 @@
     wpa_supplicant
     xcalib
     xclip
+    xorg.xdpyinfo
     xorg.xkbcomp
     xsel
     zlib

@@ -7,7 +7,7 @@
 #  android_sdk.accept_license = true;
   environment.systemPackages = with pkgs; [
 #    androidndk
-    android-studio
+#    android-studio
 #    androidenv.buildTools
 #    android-udev-rules
     apktool

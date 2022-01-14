@@ -1,12 +1,11 @@
-{ config, lib, pkgs, ... }:
-{
+{ config, lib, pkgs, ... }: {
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
     alacritty
     atop
     awscli
-#    aws_shell
+    #    aws_shell
     aircrack-ng
     anydesk
     arping
@@ -14,8 +13,9 @@
     bc
     bind
     binutils-unwrapped
-# 404    burpsuite
+    # 404    burpsuite
     cloud-sql-proxy
+    cntlm
     colordiff
     cron
     dbeaver
@@ -29,10 +29,11 @@
     efibootmgr
     eksctl
     elvish
-#    eternal-terminal
+    #    eternal-terminal
     ettercap
     fish
     gatling
+    ghostunnel
     gnupg
     google-cloud-sdk
     google-cloud-sdk-gce
@@ -43,13 +44,16 @@
     inetutils
     inotify-tools
     iotop
+    isync
     junkie
     keychain
+    kind
     kubernetes
     kubernetes-helm
-#    linuxPackages.virtualbox
+    linuxPackages.virtualbox
     libguestfs
     libvirt
+    lshw
     lsof
     ltrace
     mailutils
@@ -71,7 +75,7 @@
     parted
     pciutils
     pinentry
-#    postfix
+    #    postfix
     postgresql
     postman
     qemu
@@ -87,16 +91,16 @@
     terminator
     terraform
     thc-hydra
-#    tilix
+    #    tilix
     tmux
     tmuxinator
     tree
-#    unarj
+    #    unarj
     unetbootin
     unzip
     usbutils
     vagrant
-#    virtualbox
+    #    virtualbox
     virtmanager
     watchman
     wget
@@ -106,10 +110,10 @@
     zsh
   ];
 
-#  programs.gnupg = {
-#    agent = {
-#      enable = true;
-#      enableSSHSupport = true;
-#   };/
-#  };
+  #  programs.gnupg = {
+  #    agent = {
+  #      enable = true;
+  #      enableSSHSupport = true;
+  #   };/
+  #  };
 }

@@ -1,9 +1,8 @@
-{ config, lib, pkgs, ... }:
-{
+{ config, lib, pkgs, ... }: {
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
-#    python
+    #    python
     python3
     python3Packages.beautifulsoup4
     python3Packages.black
@@ -12,7 +11,6 @@
     python3Packages.isort
     python3Packages.jsbeautifier
     python3Packages.jsondiff
-    python3Packages.jupyter
     python3Packages.Keras
     python3Packages.nose
     python3Packages.pip
@@ -21,11 +19,13 @@
     python3Packages.powerline
     # python3Packages.pyenv
     python3Packages.pyflakes
+    python3Packages.pyqt5
     python3Packages.pytest
-#    python3Packages.rpkg
-    python3Packages.scikitlearn
-#    python3Packages.scrapy
-#    python3Packages.svg2tikz
+#    python38Packages.python-language-server
+    #    python3Packages.rpkg
+#    python3Packages.scikitlearn
+    #    python3Packages.scrapy
+    #    python3Packages.svg2tikz
     python3Packages.virtualenv
   ];
 }

@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 {
   systemd.user.services."dunst" = {
-    enable = true;
+    enable = false;
     description = "";
     wantedBy = [ "default.target" ];
     serviceConfig.Restart = "always";

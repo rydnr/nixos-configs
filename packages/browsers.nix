@@ -13,5 +13,6 @@
 #    next
 #    tor
 #    torbrowser
+    surf
   ];
 }

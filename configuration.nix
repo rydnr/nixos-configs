@@ -14,17 +14,19 @@
     ./nix.nix
     ./nixpkgs.nix
     ./packages/3dprinting.nix
-    #    ./packages/android.nix
+    ./packages/android.nix
     ./packages/audio.nix
     ./packages/bash.nix
     ./packages/browsers.nix
     ./packages/crypto.nix
+    ./packages/cute-vpn-for-smarties.nix
     ./packages/desktopapps.nix
     ./packages/devops.nix
     ./packages/editors.nix
     #      ./packages/firefox52esr.nix
     ./packages/gamedev.nix
     ./packages/java.nix
+    ./packages/jupyter.nix
     ./packages/languages.nix
     ./packages/latex.nix
     ./packages/messaging.nix
@@ -42,6 +44,7 @@
     ./packages/version-control.nix
     ./packages/x11.nix
     ./packages/xmonad.nix
+    ./packages/wayland.nix
     ./private/audio.nix
     ./private/boot.nix
     ./private/console.nix
@@ -49,7 +52,7 @@
     # ./private/configs/xmonad.nix
     ./private/filesystems.nix
     ./private/filesystems-remote.nix
-    ./private/font-size.nix
+#    ./private/font-size.nix
     ./private/hardware.nix
     ./private/i18n.nix
     ##      ./private/location.nix
@@ -88,16 +91,18 @@
     ./services/hydra.nix
     ./services/libvirtd.nix
     ./services/locate.nix
+    ./services/logind.nix
     ./services/mongodb.nix
     ./services/nix-gc.nix
     ./services/redshift.nix
     ./services/ssh.nix
+    ./services/swayidle.nix
     ./services/trezord.nix
     ./services/unclutter.nix
     ./services/upower.nix
     ./services/urxvtd.nix
     ./services/udiskie.nix
-    ./services/virtualbox.nix
+    #    ./services/virtualbox.nix
     ./services/vsftpd.nix
     ./services/xcape.nix
     ./system.nix
@@ -108,7 +113,7 @@
   #  nixpkgs.overlays = [ (import /etc/nixos/overlays/rydnr-overlay.nix {}) (import /etc/nixos/overlays/emacs-overlay.nix {}) ];
   #  nixpkgs.overlays = [ (import /etc/nixos/overlays/default.nix)  ];
   nixpkgs.overlays = [
-    (import /etc/nixos/overlays/rydnr-overlay.nix)
+    #    (import /etc/nixos/overlays/rydnr-overlay.nix)
     (import /etc/nixos/overlays/emacs-overlay.nix)
   ];
   #  nixpkgs.overlays = (import /etc/nixos/overlays);
@@ -116,8 +121,5 @@
   #  nix.nixPath =
   #    options.nix.nixPath.default ++
   #    [ "nixpkgs-overlays=/etc/nixos/overlays-compat/overlays.nix" ];
-       nixpkgs.config.permittedInsecurePackages = [
-         "python2.7-Pillow-6.2.2"
-       ];
-
+  nixpkgs.config.permittedInsecurePackages = [ "python2.7-Pillow-6.2.2" ];
 }
