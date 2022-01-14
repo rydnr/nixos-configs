@@ -2,3 +2,4 @@
 private/* filter=git-crypt diff=git-crypt
 private/packages/* filter=git-crypt diff=git-crypt
 private/services/* filter=git-crypt diff=git-crypt
+private/configs/* filter=git-crypt diff=git-crypt
