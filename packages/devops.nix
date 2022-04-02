@@ -24,6 +24,7 @@
     docker
     docker_compose
     docker-machine
+    dockfmt
     ec2_api_tools
     ec2_ami_tools
     efibootmgr
@@ -75,6 +76,7 @@
     parted
     pciutils
     pinentry
+    pkg-config
     #    postfix
     postgresql
     postman
@@ -107,6 +109,7 @@
     which
     wireshark
     zip
+    zlib
     zsh
   ];
 

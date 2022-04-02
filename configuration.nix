@@ -17,6 +17,7 @@
     ./packages/android.nix
     ./packages/audio.nix
     ./packages/bash.nix
+    ./packages/blockchain.nix
     ./packages/browsers.nix
     ./packages/crypto.nix
     ./packages/cute-vpn-for-smarties.nix

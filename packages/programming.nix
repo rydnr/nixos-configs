@@ -6,6 +6,7 @@
     bundix
     chromedriver
     clang
+    clang-tools
     cmake
     compass
     coreutils
