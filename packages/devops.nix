@@ -102,6 +102,7 @@
     unzip
     usbutils
     vagrant
+    vault
     #    virtualbox
     virtmanager
     watchman

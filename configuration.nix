@@ -20,7 +20,7 @@
     ./packages/blockchain.nix
     ./packages/browsers.nix
     ./packages/crypto.nix
-    ./packages/cute-vpn-for-smarties.nix
+#    ./packages/cute-vpn-for-smarties.nix
     ./packages/desktopapps.nix
     ./packages/devops.nix
     ./packages/editors.nix
@@ -34,7 +34,7 @@
     ./packages/misc.nix
     ./packages/music.nix
     ./packages/nodejs.nix
-    ./packages/openssl-insecure.nix
+#    ./packages/openssl-insecure.nix
     ./packages/pharo.nix
     ./packages/programming.nix
     ./packages/publishing.nix
@@ -47,10 +47,11 @@
     ./packages/xmonad.nix
     ./packages/wayland.nix
     ./private/audio.nix
+    ./private/boot-common.nix
     ./private/boot.nix
     ./private/console.nix
     # ./private/clients.nix
-    # ./private/configs/xmonad.nix
+#    ./private/configs/xmonad.nix
     ./private/filesystems.nix
     ./private/filesystems-remote.nix
 #    ./private/font-size.nix
@@ -77,7 +78,10 @@
     ./private/services/ssmtp.nix
     ./private/services/syncthing.nix
     ./private/services/udev.nix
-    ./private/services/xserver.nix
+    ./private/services/xserver/common.nix
+    ./private/services/xserver/xmonad.nix
+#    ./private/services/xserver/i3.nix
+    ./private/services/xserver/xserver.nix
     ./private/sysctl.nix
     ./private/time.nix
     ./private/users.nix
@@ -108,7 +112,7 @@
     ./services/xcape.nix
     ./system.nix
     ./unfree.nix
-    #    ./unsafe.nix
+    ./unsafe.nix
   ];
 
   #  nixpkgs.overlays = [ (import /etc/nixos/overlays/rydnr-overlay.nix {}) (import /etc/nixos/overlays/emacs-overlay.nix {}) ];
@@ -122,5 +126,4 @@
   #  nix.nixPath =
   #    options.nix.nixPath.default ++
   #    [ "nixpkgs-overlays=/etc/nixos/overlays-compat/overlays.nix" ];
-  nixpkgs.config.permittedInsecurePackages = [ "python2.7-Pillow-6.2.2" ];
 }

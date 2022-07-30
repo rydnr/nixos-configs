@@ -11,7 +11,7 @@
     gnome3.gnome-tweaks
     gnome3.nautilus
 #    next
-#    tor
+    tor
 #    torbrowser
     surf
   ];

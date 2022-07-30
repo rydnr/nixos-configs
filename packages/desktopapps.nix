@@ -19,6 +19,7 @@
     inkscape
     libreoffice
     lightdm
+    mcomix3
     mplayer
     pencil
     pidgin-with-plugins

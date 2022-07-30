@@ -1,0 +1,103 @@
+{ config, pkgs, ... }:
+
+{
+  # Enable the X11 windowing system.
+  services.xserver = {
+    videoDrivers = [ "nvidia" ];
+#    videoDrivers = [ "amdgpu" "nvidia" ]; # doesn't work
+    exportConfiguration = true;
+#    xrandrHeads = [
+#      { output = "HDMI-0"; } # lg-hd
+##      { output = "eDP"; primary = true; } # laptop
+#      { output = "DP-0"; monitorConfig = "Option \"Rotate\" \"left\""; } # samsung-vertical
+#      { output = "DP-2"; } # samsung-4k
+#    ];
+
+    useGlamor = false;
+     config = pkgs.lib.mkAfter ''
+
+Section "Monitor"
+  Identifier "DP-2"
+  Option "Primary" "true"
+  Option "Rotate" "inverted"
+  Option "PreferredMode" "3840x2160"
+  Option "Enable" "true"
+EndSection
+Section "Monitor"
+  Identifier "DP-0"
+  Option "RightOf" "DP-2"
+  Option "Rotate" "left"
+  Option "PreferredMode" "1680x1050"
+  Option "Position" "3840 0"
+  Option "Enable" "true"
+EndSection
+Section "Monitor"
+  Identifier "HDMI-0"
+  Option "RightOf" "DP-0"
+  Option "PreferredMode" "1920x1080"
+  Option "Enable" "true"
+  Option "Position" "4890 434"
+EndSection
+
+Section "Device"
+  Identifier "Device-nvidia"
+  Driver "nvidia"
+
+  BusID "PCI:1:0:0"
+
+  Option "Monitor-HDMI-0" "HDMI-0"
+  Option "Monitor-DP-0" "DP-0"
+  Option "Monitor-DP-2" "DP-2"
+
+  Option "UseDisplayDevice" "DP-2"
+  Option "RenderAccel" "true"
+  VendorName "NVIDIA Corporation"
+  BoardName "GeForce RTX 3070 mobile"
+  Screen 1
+EndSection
+
+Section "Screen"
+  Identifier "Screen-nvidia-HDMI-0"
+  Device "Device-nvidia"
+  Monitor "HDMI-0"
+  Option "AllowEmptyInitialConfiguration"
+EndSection
+
+Section "Screen"
+  Identifier "Screen-nvidia-DP-0"
+  Device "Device-nvidia"
+  Monitor "DP-0"
+  Option "RandRRotation" "on"
+  Option "AllowEmptyInitialConfiguration"
+EndSection
+
+Section "Screen"
+  Identifier "Screen-nvidia-DP-2"
+  Device "Device-nvidia"
+  Monitor "DP-2"
+  Option "AllowEmptyInitialConfiguration"
+EndSection
+
+Section "ServerLayout"
+  Identifier "Layout"
+
+#  Reference the Screen sections for each driver.  This will
+#  cause the X server to try each in turn.
+#  Screen "Screen-nvidia-HDMI-0" RightOf "Screen-amdgpu-eDP"
+  Screen "Screen-nvidia-DP-2"
+  Screen "Screen-nvidia-DP-0"
+  Screen "Screen-nvidia-HDMI-0"
+
+EndSection
+'';
+    displayManager = {
+      sessionCommands =  ''
+#         su - chous 'xmonad --recompile' || echo "nevermind"
+#         ls -lthlia ~/.Xauthority ~/.xmonad >> /tmp/session.log
+#         chown chous:users /home/chous/.Xauthority
+#         rm -f /home/chous/.xmonad/xmonad-x86_64-linux
+         xmodmap -e 'add mod3 = Multi_key'
+      '';
+    };
+  };
+}

@@ -1,5 +1,4 @@
-{ config, lib, pkgs, ... }:
-{
+{ config, lib, pkgs, ... }: {
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
@@ -13,7 +12,7 @@
     fd
     hlint
     gnuplot
-#    go_bootstrap
+    #    go_bootstrap
     gocode
     goimports
     gomodifytags
@@ -22,8 +21,9 @@
     ktlint
     html-tidy
     libpng.dev
+    robo3t
     nitrogen
-#    octave
+    #    octave
     openssl
     pngquant
     qt5.full
@@ -34,7 +34,7 @@
     shfmt
     sqlite
     stack
-#    thrift
+    #    thrift
     watchman
     weka
   ];

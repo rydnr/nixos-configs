@@ -34,7 +34,9 @@
 #     xfce.xfconf
      xlibs.xhost
      xlibs.xmessage
+     xorg.xbacklight
      xorg.xev
+     xorg.xeyes
 #     xorg.xf86videonvidia
      xorg.xinit
      xorg.xkill
