@@ -14,10 +14,11 @@
     gnuplot
     #    go_bootstrap
     gocode
-    goimports
     gomodifytags
     gore
     gotests
+    gotools
+    gource
     ktlint
     html-tidy
     libpng.dev
@@ -26,7 +27,6 @@
     #    octave
     openssl
     pngquant
-    qt5.full
     ripgrep
     sass
     schemaspy

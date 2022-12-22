@@ -6,7 +6,7 @@
     python3
     python3Packages.beautifulsoup4
     python3Packages.black
-    python3Packages.conda
+    #    python3Packages.conda
     python3Packages.editorconfig
     python3Packages.isort
     python3Packages.jsbeautifier
@@ -19,11 +19,10 @@
     python3Packages.powerline
     # python3Packages.pyenv
     python3Packages.pyflakes
-    python3Packages.pyqt5
     python3Packages.pytest
-#    python38Packages.python-language-server
+    #    python38Packages.python-language-server
     #    python3Packages.rpkg
-#    python3Packages.scikitlearn
+    #    python3Packages.scikitlearn
     #    python3Packages.scrapy
     #    python3Packages.svg2tikz
     python3Packages.virtualenv

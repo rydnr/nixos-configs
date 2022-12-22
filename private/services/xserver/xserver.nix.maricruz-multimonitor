@@ -13,7 +13,6 @@
 #      { output = "DP-2"; } # samsung-4k
 #    ];
 
-    useGlamor = false;
      config = pkgs.lib.mkAfter ''
 
 Section "Monitor"

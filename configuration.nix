@@ -8,7 +8,7 @@
   imports = [
     #      ./allow-broken.nix
     ./bluetooth.nix
-    ./cachix.nix
+    ./cachix/nix-community.nix
     #    ./cli.nix
     ./fonts.nix
     ./nix.nix
@@ -20,7 +20,7 @@
     ./packages/blockchain.nix
     ./packages/browsers.nix
     ./packages/crypto.nix
-#    ./packages/cute-vpn-for-smarties.nix
+    #    ./packages/cute-vpn-for-smarties.nix
     ./packages/desktopapps.nix
     ./packages/devops.nix
     ./packages/editors.nix
@@ -34,7 +34,7 @@
     ./packages/misc.nix
     ./packages/music.nix
     ./packages/nodejs.nix
-#    ./packages/openssl-insecure.nix
+    #    ./packages/openssl-insecure.nix
     ./packages/pharo.nix
     ./packages/programming.nix
     ./packages/publishing.nix
@@ -51,10 +51,10 @@
     ./private/boot.nix
     ./private/console.nix
     # ./private/clients.nix
-#    ./private/configs/xmonad.nix
+    #    ./private/configs/xmonad.nix
     ./private/filesystems.nix
     ./private/filesystems-remote.nix
-#    ./private/font-size.nix
+    #    ./private/font-size.nix
     ./private/hardware.nix
     ./private/i18n.nix
     ##      ./private/location.nix
@@ -80,7 +80,7 @@
     ./private/services/udev.nix
     ./private/services/xserver/common.nix
     ./private/services/xserver/xmonad.nix
-#    ./private/services/xserver/i3.nix
+    #    ./private/services/xserver/i3.nix
     ./private/services/xserver/xserver.nix
     ./private/sysctl.nix
     ./private/time.nix

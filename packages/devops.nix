@@ -4,12 +4,13 @@
   environment.systemPackages = with pkgs; [
     alacritty
     atop
-    awscli
-    #    aws_shell
     aircrack-ng
-    anydesk
+    #    anydesk
     arping
     arpoison
+    awscli
+    #    aws_shell
+    #    aws-sam-cli
     bc
     bind
     binutils-unwrapped
@@ -22,7 +23,7 @@
     dnsmasq
     dnsperf
     docker
-    docker_compose
+    docker-compose
     docker-machine
     dockfmt
     ec2_api_tools
@@ -33,7 +34,6 @@
     #    eternal-terminal
     ettercap
     fish
-    gatling
     ghostunnel
     gnupg
     google-cloud-sdk
@@ -63,7 +63,7 @@
     mongodb
     mutt
     net_snmp
-    ngrok-1
+    ngrok
     nix-index
     nmap
     nox
@@ -85,7 +85,6 @@
     robo3t
     rsnapshot
     s3fs
-    aws-sam-cli
     screen
     socat
     sysstat
@@ -103,7 +102,7 @@
     usbutils
     vagrant
     vault
-    #    virtualbox
+    virtualbox
     virtmanager
     watchman
     wget

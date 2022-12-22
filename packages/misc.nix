@@ -1,5 +1,4 @@
-{ config, lib, pkgs, ... }:
-{
+{ config, lib, pkgs, ... }: {
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
@@ -7,36 +6,35 @@
     alsaPlugins
     alsaPluginWrapper
     anki
-#    autofs5
+    #    autofs5
     autossh
     bc
     bluez
     bluez-tools
     busybox
     cachix
-    cifs_utils
+    cifs-utils
     conky
     cowsay
     dash
     davfs2
     dmidecode
     dpkg
-#    extraterm
+    #    extraterm
     etcher
+    exfat
     fasd
     file
     ffmpeg-full
     fortune
-    fuse_exfat
     fzf
     gettext
     glibc
     gnome3.cheese
     gnome3.zenity
-#    go-mtpfs
+    #    go-mtpfs
     google-drive-ocamlfuse
     googler
-    hicolor_icon_theme
     home-manager
     i3
     i3lock
@@ -74,7 +72,7 @@
     simplescreenrecorder
     stalonetray
     synergy
-#    taffybar
+    #    taffybar
     transcode
     unrar
     vlc

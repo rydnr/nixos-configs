@@ -2,7 +2,7 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
-    ((emacsPackagesNgGen emacs).emacsWithPackages (epkgs:
+    ((emacsPackagesFor emacs).emacsWithPackages (epkgs:
       with epkgs; [
         melpaStablePackages.pdf-tools
         proof-general

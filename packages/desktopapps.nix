@@ -1,5 +1,4 @@
-{ config, lib, pkgs, ... }:
-{
+{ config, lib, pkgs, ... }: {
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
@@ -22,23 +21,21 @@
     mcomix3
     mplayer
     pencil
-    pidgin-with-plugins
+    pidgin
     redshift
     rxvt_unicode-with-plugins
     screen
     scrot
-# marked as broken    synfigstudio
+    # marked as broken    synfigstudio
     stalonetray
-# shows a license    teamspeak_client
-#    tigervnc
+    # shows a license    teamspeak_client
+    #    tigervnc
     tmux
     tmuxinator
-    torchat
     wine
     xclip
     xdotool
     xfontsel
-    xlibs.xmessage
     xmacro
     xzgv
     zathura

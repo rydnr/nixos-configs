@@ -3,7 +3,7 @@
     fontDir.enable = true;
     enableGhostscriptFonts = true;
     fonts = with pkgs; [
-      cantarell_fonts
+      cantarell-fonts
       corefonts
       dejavu_fonts
       dina-font
@@ -13,7 +13,7 @@
       etBook
       fira-code
       fira-code-symbols
-      font-awesome-ttf
+      font-awesome
       fontconfig
       fontforge
       fontforge-gtk
@@ -47,7 +47,7 @@
       lohit-fonts.tamil
       lohit-fonts.tamil-classical
       lohit-fonts.telugu
-      mplus-outline-fonts
+      # mplus-outline-fonts
       # 404            nerdfonts
       ocamlPackages.fontconfig
       #            perlPackages.FontAFM
@@ -64,7 +64,7 @@
       #           textfonts
       ttmkfdir
       ubuntu_font_family
-      ucsFonts
+      ucs-fonts
       unifont
       unifont_upper
       urxvt_font_size
