@@ -20,6 +20,7 @@
     colordiff
     cron
     dbeaver
+    direnv
     dnsmasq
     dnsperf
     docker
@@ -87,6 +88,7 @@
     s3fs
     screen
     socat
+    starship
     sysstat
     tcpdump
     terminator

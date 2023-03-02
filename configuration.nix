@@ -6,6 +6,7 @@
 
 {
   imports = [
+    <home-manager/nixos>
     #      ./allow-broken.nix
     ./bluetooth.nix
     ./cachix/nix-community.nix

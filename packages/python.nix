@@ -21,6 +21,7 @@
     python3Packages.pyflakes
     python3Packages.pytest
     #    python38Packages.python-language-server
+    python3Packages.python-lsp-server
     #    python3Packages.rpkg
     #    python3Packages.scikitlearn
     #    python3Packages.scrapy
