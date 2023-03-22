@@ -34,6 +34,7 @@
     ./packages/messaging.nix
     ./packages/misc.nix
     ./packages/music.nix
+    ./packages/nix.nix
     ./packages/nodejs.nix
     #    ./packages/openssl-insecure.nix
     ./packages/pharo.nix
