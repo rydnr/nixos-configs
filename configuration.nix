@@ -10,7 +10,7 @@
     #      ./allow-broken.nix
     ./bluetooth.nix
     ./cachix/nix-community.nix
-    #    ./cli.nix
+    #    ./environment.nix
     ./fonts.nix
     ./nix.nix
     ./nixpkgs.nix
@@ -86,6 +86,7 @@
     ./private/sysctl.nix
     ./private/time.nix
     ./private/users.nix
+    ./programs.nix
     ./security.nix
     ./services/acpid.nix
     ./services/atd.nix

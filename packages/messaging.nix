@@ -1,12 +1,13 @@
-{ config, lib, pkgs, ... }:
-{
+{ config, lib, pkgs, ... }: {
   environment.systemPackages = with pkgs; [
     discord
+    element-desktop
+    element-web
     jitsi
-#    skypeforlinux
+    #    skypeforlinux
     slack
     slack-cli
     teams
-#    zoom-us
+    zoom-us
   ];
 }

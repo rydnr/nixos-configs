@@ -29,6 +29,7 @@
     fortune
     fzf
     gettext
+    gphoto2
     glibc
     gnome3.cheese
     gnome3.zenity
@@ -75,6 +76,7 @@
     #    taffybar
     transcode
     unrar
+    v4l-utils
     vlc
     vokoscreen
     vsftpd

@@ -1,6 +1,7 @@
 { config, lib, pkgs, ... }: {
   fonts = {
     fontDir.enable = true;
+    enableDefaultFonts = true;
     enableGhostscriptFonts = true;
     fonts = with pkgs; [
       cantarell-fonts
