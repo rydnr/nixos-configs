@@ -120,10 +120,10 @@
 
   #  nixpkgs.overlays = [ (import /etc/nixos/overlays/rydnr-overlay.nix {}) (import /etc/nixos/overlays/emacs-overlay.nix {}) ];
   #  nixpkgs.overlays = [ (import /etc/nixos/overlays/default.nix)  ];
-  nixpkgs.overlays = [
-    #    (import /etc/nixos/overlays/rydnr-overlay.nix)
-    (import ./overlays/emacs-overlay.nix)
-  ];
+  #  nixpkgs.overlays = [
+  #    (import /etc/nixos/overlays/rydnr-overlay.nix)
+  #    (import ./overlays/emacs-overlay.nix)
+  #  ];
   #  nixpkgs.overlays = (import /etc/nixos/overlays);
   #  nixpkgs.overlays = [ import /etc/nixos/overlays ];
   #  nix.nixPath =
