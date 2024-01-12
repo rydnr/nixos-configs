@@ -2,7 +2,7 @@
 
 {
   services.hydra = {
-    enable = true;
+    enable = false;
     hydraURL = "http://localhost:3000";
     notificationSender = "hydra@localhost";
     useSubstitutes = true;

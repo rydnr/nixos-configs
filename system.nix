@@ -6,9 +6,9 @@
 
 {
   # The NixOS release to be compatible with for stateful data such as databases.
-  system.stateVersion = "22.11";
+  system.stateVersion = "23.11";
 
-  #  system.autoUpgrade.enable = true;
+  system.autoUpgrade.enable = true;
 
-  #  system.autoUpgrade.channel = https://nixos.org/channels/nixos-20.03;
+  system.autoUpgrade.channel = "https://channels.nixos.org/nixos-23.11";
 }

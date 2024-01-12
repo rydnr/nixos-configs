@@ -5,8 +5,8 @@
     ant
     eclipses.eclipse-sdk
     # try me again!    ecj
-    jdk11
-    graalvm11-ce
+    jdk
+    graalvm-ce
     gradle
     grails
     groovy

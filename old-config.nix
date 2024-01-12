@@ -31,6 +31,7 @@
     ./packages/jupyter.nix
     ./packages/languages.nix
     ./packages/latex.nix
+    ./packages/machine-learning.nix
     ./packages/messaging.nix
     ./packages/misc.nix
     ./packages/music.nix
@@ -102,6 +103,7 @@
     ./services/logind.nix
     ./services/mongodb.nix
     ./services/nix-gc.nix
+    ./services/nix-serve.nix
     ./services/redshift.nix
     ./services/ssh.nix
     ./services/swayidle.nix

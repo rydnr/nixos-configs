@@ -9,16 +9,13 @@
     asunder
     pavucontrol
     pulseaudioFull
-#    perlPackages.MusicBrainzDiscID
-#    perlPackages.MusicBrainz
+    #    perlPackages.MusicBrainzDiscID
+    #    perlPackages.MusicBrainz
   ];
-
 
   nixpkgs.config = {
     packageOverrides = super: {
-      mplayer = super.mplayer.override {
-        pulseSupport = true;
-      };
+      mplayer = super.mplayer.override { pulseSupport = true; };
     };
   };
 }

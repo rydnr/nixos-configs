@@ -1,9 +1,9 @@
 { config, lib, pkgs, ... }: {
   fonts = {
     fontDir.enable = true;
-    enableDefaultFonts = true;
+    enableDefaultPackages = true;
     enableGhostscriptFonts = true;
-    fonts = with pkgs; [
+    packages = with pkgs; [
       cantarell-fonts
       corefonts
       dejavu_fonts

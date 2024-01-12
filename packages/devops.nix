@@ -15,6 +15,7 @@
     bind
     binutils-unwrapped
     # 404    burpsuite
+    bustle
     cloud-sql-proxy
     cntlm
     colordiff
@@ -61,9 +62,7 @@
     mailutils
     mcron
     minikube
-    mongodb
     mutt
-    net_snmp
     ngrok
     nix-index
     nmap
@@ -80,7 +79,7 @@
     pkg-config
     #    postfix
     postgresql
-    postman
+    # postman
     qemu
     redis
     robo3t
@@ -101,11 +100,12 @@
     #    unarj
     unetbootin
     unzip
+    usbimager
     usbutils
     vagrant
     vault
     virtualbox
-    virtmanager
+    virt-manager
     watchman
     wget
     which

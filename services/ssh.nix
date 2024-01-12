@@ -5,7 +5,7 @@
   services.openssh = {
     enable = true;
     startWhenNeeded = true;
-    forwardX11 = true;
+    settings = { X11Forwarding = true; };
     allowSFTP = true;
     #gatewayPorts = true;
     openFirewall = true;

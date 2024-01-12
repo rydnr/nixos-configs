@@ -20,8 +20,7 @@
     davfs2
     dmidecode
     dpkg
-    #    extraterm
-    etcher
+    # extraterm
     exfat
     fasd
     file
@@ -71,6 +70,7 @@
     sabnzbd
     sharutils
     simplescreenrecorder
+    sn0int
     stalonetray
     synergy
     #    taffybar

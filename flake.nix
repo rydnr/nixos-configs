@@ -2,7 +2,7 @@
 {
   description = "flake-based NixOS configuration for Maricruz laptop";
   inputs = {
-    nixpkgs = { url = "github:NixOS/nixpkgs/22.11"; };
+    nixpkgs = { url = "github:NixOS/nixpkgs/nixos-unstable"; };
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";

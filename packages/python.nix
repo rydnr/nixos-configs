@@ -2,7 +2,7 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
-    poetry2nix
+    # poetry2nix
     #    python
     python3
     python3Packages.beautifulsoup4
@@ -16,7 +16,7 @@
     python3Packages.nose
     python3Packages.pip
     pipenv
-    python3Packages.poetry
+    poetry
     python3Packages.powerline
     # python3Packages.pyenv
     python3Packages.pyflakes

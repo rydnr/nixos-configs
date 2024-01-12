@@ -2,5 +2,5 @@
 
 {
   # Enable locate
-  services.locate.enable = true;
+  # services.locate.enable = true;
 }

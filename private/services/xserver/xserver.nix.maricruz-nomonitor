@@ -10,7 +10,6 @@
 #      { output = "eDP"; primary = true; } # laptop
 #    ];
 
-    useGlamor = false;
      config = pkgs.lib.mkAfter ''
 
 Section "Monitor"

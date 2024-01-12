@@ -5,9 +5,9 @@
     element-web
     jitsi
     #    skypeforlinux
+    obs-studio
     slack
     slack-cli
-    teams
     zoom-us
   ];
 }

@@ -2,6 +2,7 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
+    antlr4
     bundix
     chromedriver
     clang
@@ -25,7 +26,6 @@
     robo3t
     nitrogen
     #    octave
-    openssl
     pngquant
     ripgrep
     sass

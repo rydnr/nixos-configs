@@ -11,6 +11,7 @@
       i3
       inotify-tools
       lxappearance
+      remmina
       screen
       shared-mime-info
       simplescreenrecorder
@@ -56,7 +57,7 @@
             # Launch xfce settings daemon.
       #      xfsettingsd &
             # ===================================
-          '';
+    '';
 
     pathsToLink = [
       "/share/xfce4"
